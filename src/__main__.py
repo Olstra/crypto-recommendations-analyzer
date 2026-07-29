@@ -25,5 +25,5 @@ if __name__ == "__main__":
     env_path = Path(__file__).resolve().parent.parent / ".env"
     load_dotenv(dotenv_path=env_path)
 
-    for model in supported_models:
-        main(model)
+    for m in supported_models:
+        main(m)
