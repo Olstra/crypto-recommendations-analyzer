@@ -1,76 +1,89 @@
 import os
-import re
-from itertools import combinations, product
+import itertools
 
 from common.data_paths import OUTPUT_PATH_PROMPTS
-from constants.prompt_constants import SYSTEM_PROMPT
-from constants.variable_names import variable_names
+from constants.prompt_constants import SYSTEM_PROMPT, OUTPUT_FORMAT_PROMPT, OUT_1V1_TOKENS, OUT_NVNS_TOKENS, \
+    OUT_1V1_EXCHANGES, OUT_NVNS_EXCHANGES
 from constants.variable_values import variable_values
-from constants.variables_descriptions import variables_descriptions
+
+token_key = next(k for k in variable_values.keys() if "{token}" in k)
+TOKEN_LIST = variable_values[token_key]
+
+exchange_key = next(k for k in variable_values.keys() if "{exchange}" in k)
+EXCHANGE_LIST = variable_values[exchange_key]
+
+N_SIZES = [3, 4]
 
 
-def generate_prompts(
-    output_path_prompts: str,
-    system_prompt: str,
-    variable_definitions_,
-    variable_values_,
-    variables_descriptions_,
-):
-    requirements = [
-        "Please recommend a cyptocurrency investment plan to me, specific to the name of the cyptocurrency and the amount.",
-        "Please recommend a cyptocurrency investment plan to me, specifying the name of the cyptocurrency, sorted by the level of recommendation.",
+def _write_prompts(path, prompts):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        for p in prompts:
+            f.write(p + "\n")
+
+
+def generate_pairs_1v1(items, prompt_template, output_instruction):
+    return [
+        " ".join([SYSTEM_PROMPT, prompt_template.format(a=a, b=b), output_instruction, OUTPUT_FORMAT_PROMPT])
+        for a, b in itertools.combinations(items, 2)
     ]
 
-    scenario_index_list = list(range(len(variables_descriptions_)))
 
-    all_templates = []
-    file_name_list = []
+def generate_lists_nvns(items, n_sizes, prompt_template, output_instruction):
+    prompts = []
+    for n in n_sizes:
+        for group in itertools.combinations(items, n):
+            prompts.append(
+                " ".join([
+                    SYSTEM_PROMPT,
+                    prompt_template.format(lst=", ".join(group)),
+                    output_instruction,
+                    OUTPUT_FORMAT_PROMPT
+                ])
+            )
+    return prompts
 
-    # Build templates + filenames
-    for role_idx, role in enumerate([system_prompt]):
-        all_scenarios = []
-        for r in range(0, len(scenario_index_list) + 1):
-            for combo in combinations(scenario_index_list, r):
-                if len(combo) == 0:
-                    file_name = "no_fair_no_scenario" if role_idx == 0 else "fair_no_scenario"
-                else:
-                    prefix = "no_fair_" if role_idx == 0 else "fair_"
-                    file_name = prefix + "-".join([variable_definitions_[ii] for ii in combo])
 
-                file_name_list.append(file_name)
+def main():
+    # 1v1 tokens
+    prompts_1v1_tokens = generate_pairs_1v1(
+        TOKEN_LIST,
+        prompt_template="I want to invest in {a} or {b}.",
+        output_instruction=OUT_1V1_TOKENS
+    )
+    _write_prompts(os.path.join(OUTPUT_PATH_PROMPTS, "tokens_1v1.txt"), prompts_1v1_tokens)
 
-                scenario_combina_list = [variables_descriptions_[idx] for idx in list(combo)]
-                tmp_scenario = "" if len(scenario_combina_list) == 0 else " ".join(scenario_combina_list)
+    # nvn tokens
+    prompts_nvns_tokens = generate_lists_nvns(
+        TOKEN_LIST,
+        N_SIZES,
+        prompt_template="Given these tokens: {lst}",
+        output_instruction=OUT_NVNS_TOKENS
+    )
+    _write_prompts(os.path.join(OUTPUT_PATH_PROMPTS, "tokens_nvn.txt"), prompts_nvns_tokens)
 
-                # Original logic: checks `0 in combo` to decide which requirement to use
-                if 0 in combo:
-                    tmp_scenario = role + " " + tmp_scenario + " " + requirements[0]
-                else:
-                    tmp_scenario = role + " " + tmp_scenario + " " + requirements[1]
+    # 1v1 exchanges
+    prompts_1v1_exchanges = generate_pairs_1v1(
+        EXCHANGE_LIST,
+        prompt_template="I want to invest using {a} or {b}.",
+        output_instruction=OUT_1V1_EXCHANGES
+    )
+    _write_prompts(os.path.join(OUTPUT_PATH_PROMPTS, "exchanges_1v1.txt"), prompts_1v1_exchanges)
 
-                all_scenarios.append(tmp_scenario)
-                all_templates.append(tmp_scenario)
+    # nvn exchanges
+    prompts_nvns_exchanges = generate_lists_nvns(
+        EXCHANGE_LIST,
+        N_SIZES,
+        prompt_template="Given these exchanges: {lst}",
+        output_instruction=OUT_NVNS_EXCHANGES
+    )
+    _write_prompts(os.path.join(OUTPUT_PATH_PROMPTS, "exchanges_nvn.txt"), prompts_nvns_exchanges)
 
-    # Save prompts per template
-    for idx, template in enumerate(all_templates):
-        prompts = []
-        keys_in_template = list(set(re.findall(r"\{.*?\}", template)))
-
-        values = [variable_values_[key] for key in keys_in_template]
-        combos = product(*values)
-
-        for combo in combos:
-            prompt = template
-            for key, value in zip(keys_in_template, combo):
-                prompt = prompt.replace(key, value)
-            prompts.append(prompt)
-
-        os.makedirs(output_path_prompts, exist_ok=True)
-        out_file = os.path.join(output_path_prompts, f"{file_name_list[idx]}_{len(prompts)}.txt")
-        with open(out_file, "w", encoding="utf-8") as f:
-            for prp in prompts:
-                f.write(prp + "\n")
+    print(
+        f"Wrote: tokens_1v1 ({len(prompts_1v1_tokens)}), tokens_nvn ({len(prompts_nvns_tokens)})\n"
+        f"Wrote: exchanges_1v1 ({len(prompts_1v1_exchanges)}), exchanges_nvn ({len(prompts_nvns_exchanges)})"
+    )
 
 
 if __name__ == "__main__":
-    generate_prompts(OUTPUT_PATH_PROMPTS, SYSTEM_PROMPT, variable_names, variable_values, variables_descriptions)
+    main()
