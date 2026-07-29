@@ -5,3 +5,4 @@ ENV_PATH = PROJECT_ROOT / ".env"
 
 INPUT_FILE = PROJECT_ROOT / "data" / "prompts" / "dummy_prompts.txt"
 OUTPUT_PATH_RESPONSES = PROJECT_ROOT / "data" / "responses"
+OUTPUT_PATH_PROMPTS = PROJECT_ROOT / "data" / "prompts"

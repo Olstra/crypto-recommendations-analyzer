@@ -11,8 +11,8 @@ logger = get_logger(Path(__file__).name)
 def send_prompts(
     input_file: Path,
     output_file: Path,
-    model: str = "openai:gpt-5.5",
-):
+    model: str,
+) -> None:
     agent = create_agent(
         model=model,
         system_prompt=SYSTEM_PROMPT,
