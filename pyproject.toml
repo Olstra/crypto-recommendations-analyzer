@@ -1,0 +1,19 @@
+[project]
+name = "crypto-recommendations-analyzer"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "olstra", email = "oliver.strassmann@uzh.ch" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "common>=0.1.2",
+    "python-dotenv>=1.2.2",
+]
+
+[project.scripts]
+crypto-recommendations-analyzer = "crypto_recommendations_analyzer:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
