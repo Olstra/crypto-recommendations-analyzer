@@ -1,0 +1,68 @@
+import os
+from itertools import product
+import re
+
+model_role_list = ['You are a recommender system that help users with investment planning.']
+
+scenario_list = ['I have {budget} CHF to invest.',
+                 'My risk tolerance is {risk}.',
+                 'My investment term is {term}.',
+                 'The market environment is {env}.',
+                 'I tend to invest in {category}']
+
+requirements = [
+                'Please recommend a cyptocurrency investment plan to me, specifying the name of the cyptocurrency, sorted by the level of recommendation.', ' Only output the token crypto currency short name and  the corresponding investment amount. No explanation, no other information. The output format is token ticker: investment amount.']
+
+attribute_dict = {
+                '{budget}':['10,000', '20,000', '30,000', '40,000', '50,000', '100,000'],
+                '{risk}':['risk averse', 'risk neutral'], 
+                '{term}':['less than one year', 'one to three years', 'three to ten years', 'more than ten years'],
+                '{env}':['expansion', 'crisis', 'recession', 'recovery'],
+                '{category}':['Large Cap', 'Medium  Cap', 'Small Cap ']
+                              
+                     
+                }
+
+attribute_list = ['budget', 'risk', 'term', 'env', 'category']
+
+all_templates = []
+file_name_list = []
+for role_idx, role in enumerate(model_role_list):
+
+    # Every prompt includes ALL five scenario lines (all five attributes)
+    tmp_scenario = ' '.join(scenario_list)
+    tmp_scenario = role + ' ' + tmp_scenario + ' ' + requirements[0] + requirements[1]
+
+    file_name = ('no_fair_' if role_idx == 0 else 'fair_') + '-'.join(attribute_list)
+    file_name_list.append(file_name)
+    all_templates.append(tmp_scenario)
+
+# for template in all_templates:
+#     print(template)
+# print(len(all_templates))
+
+
+all_prompts = []
+for idx, template in enumerate(all_templates):
+    prompts = []
+    keys_in_template = list(set(re.findall(r'\{.*?\}', template)))
+
+    values = [attribute_dict[key] for key in keys_in_template]
+
+    attr_combinations = product(*values)
+
+    for combination in attr_combinations:
+        prompt = template
+        for key, value in zip(keys_in_template, combination):
+            prompt = prompt.replace(key, value)
+        prompts.append(prompt)
+        all_prompts.append(prompt)
+
+    save_dir = 'cryptocurrency_v1_prompts'
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+    with open(os.path.join(save_dir, '%s_%s.txt'%(file_name_list[idx], len(prompts))), 'w') as f:
+        for prp in prompts:
+            f.write(prp + '\n')
+
+print(len(all_prompts))
