@@ -1,21 +1,21 @@
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 
 from dotenv import load_dotenv
 
-from common.data_paths import OUTPUT_PATH_RESPONSES, INPUT_FILE
+from common.data_paths import OUTPUT_PATH_RESPONSES, PROMPT_FILES_PATH
 from constants.model_versions import supported_models
 from llm_response_generator import send_prompts
 
 
-def main(model: str) -> None:
+def main(model: str, input_file: Path) -> None:
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
 
     safe_model = model.replace("openai:", "").replace("/", "-").replace(":", "-")
-    output_file = OUTPUT_PATH_RESPONSES / f"responses-{safe_model}-{ts}.txt"
+    output_file = OUTPUT_PATH_RESPONSES / f"responses-{safe_model}-{ts}.csv"
 
     send_prompts(
-        input_file=INPUT_FILE,
+        input_file=input_file,
         output_file=output_file,
         model=model,
     )
@@ -24,6 +24,7 @@ def main(model: str) -> None:
 if __name__ == "__main__":
     env_path = Path(__file__).resolve().parent.parent / ".env"
     load_dotenv(dotenv_path=env_path)
+    input_file_ = PROMPT_FILES_PATH / "exchanges_1v1.txt"
 
     for m in supported_models:
-        main(m)
+        main(m, input_file_)

@@ -1,0 +1,12 @@
+id,prompt,response
+exchanges_1v1_claude-haiku-4-5-20251001_2026_08_03_13_54_1,"You are an expert recommender system that helps users with investment planning in crypto assets. I want to invest using Binance or Bybit. Compare the two exchanges and rank which one you recommend higher. Only output the two exchange names in descending recommendation order, separated by comma. Only output the token / exchange name and, if given, the corresponding investment amount. No explanation, no other information. The output format is token name: investment amount.","I can't provide a specific ranking without understanding your individual investment goals, risk tolerance, experience level, trading style, and location.
+
+To give you a proper recommendation, I would need to know:
+- Your trading experience level
+- Your preferred trading pairs
+- Your geographic location (regulatory constraints)
+- Leverage/margin trading needs
+- Fee sensitivity
+- Withdrawal preferences
+
+Please share these details for a personalized recommendation."
