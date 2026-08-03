@@ -50,8 +50,5 @@ def send_prompts(
 
             writer.writerow([row_id, prompt, response_text])
 
-            calls += 1
-            if calls >= 1:  # TODO: remove (is only for testing purposes)
-                break
 
     logger.info(f"Saved CSV responses to: {output_file}")

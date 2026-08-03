@@ -1,93 +1,121 @@
-import os
 import itertools
 from pathlib import Path
+from typing import Dict, List, Sequence, Tuple
 
-from common.data_paths import OUTPUT_PATH_PROMPTS
 from common.logger import get_logger
-from constants.prompt_constants import SYSTEM_PROMPT, OUTPUT_FORMAT_PROMPT, OUT_1V1_TOKENS, OUT_NVN_TOKENS, \
-    OUT_1V1_EXCHANGES, OUT_NVN_EXCHANGES
-from constants.variable_values import variable_values
+from constants.prompt_constants import SYSTEM_PROMPT, GENERAL_PROMPT, TOKENS_PROMPT, OUTPUT_FORMAT_PREFIX_TOKENS, \
+    OUTPUT_FORMAT_PROMPT
+from constants.variable_values import VARIABLE_VALUES_GENERAL, TOKENS_LIST
+from common.data_paths import PROMPT_FILES_PATH
 
 logger = get_logger(Path(__file__).name)
 
-token_key = next(k for k in variable_values.keys() if "{token}" in k)
-TOKEN_LIST = variable_values[token_key]
 
-exchange_key = next(k for k in variable_values.keys() if "{exchange}" in k)
-EXCHANGE_LIST = variable_values[exchange_key]
-
-N_SIZES_TOKENS = list(range(3, len(TOKEN_LIST) + 1))
-N_SIZES_EXCHANGES = list(range(3, len(EXCHANGE_LIST) + 1))
+def _extract_placeholder_name(tmpl: str) -> str:
+    return tmpl.split("{", 1)[1].split("}", 1)[0]
 
 
-def _write_prompts(path, prompts):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        for p in prompts:
-            f.write(p + "\n")
+def generate_base_prompts(variable_values: dict, vars_to_use: list) -> List[str]:
+    templates: List[str] = []
+    value_lists: List[List[str]] = []
+    placeholders_by_template: List[str] = []
+
+    for tmpl, values in variable_values.items():
+        placeholder = _extract_placeholder_name(tmpl)
+        if placeholder in vars_to_use:
+            templates.append(tmpl)
+            value_lists.append(values)
+            placeholders_by_template.append(placeholder)
+
+    if not templates:
+        raise ValueError(f"No templates found for vars_to_use={tuple(vars_to_use)}")
+
+    lines: List[str] = []
+    for combo in itertools.product(*value_lists):
+        parts: List[str] = []
+        for tmpl, placeholder, val in zip(templates, placeholders_by_template, combo):
+            parts.append(tmpl.format(**{placeholder: val}))
+        lines.append(" ".join(parts).strip())
+
+    return lines
 
 
-def generate_pairs_1v1(items, prompt_template, output_instruction):
-    return [
-        " ".join([SYSTEM_PROMPT, prompt_template.format(a=a, b=b), output_instruction, OUTPUT_FORMAT_PROMPT])
-        for a, b in itertools.combinations(items, 2)
-    ]
+def generate_prompts_with_general_question(
+    variable_values: dict,
+    output_dir: Path,
+    possible_tokens: list,
+    vars_to_use: list = ["budget", "term", "risk", "environment"],
+    *,
+    base_filename: str = "general",
+    general_question: str = GENERAL_PROMPT,
+    system_prompt: str = SYSTEM_PROMPT,
+    output_format_prompt: str = OUTPUT_FORMAT_PROMPT,
+) -> None:
+    _ = possible_tokens
+    base_prompts = generate_base_prompts(variable_values, vars_to_use=vars_to_use)
+    safe_vars = "_".join(vars_to_use)
+
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    path = out_dir / f"{base_filename}-{safe_vars}.txt"
+    with path.open("w", encoding="utf-8") as f:
+        for p in base_prompts:
+            line = f"{system_prompt} {p} {general_question}{output_format_prompt}"
+            f.write(line.strip() + "\n")
+
+    logger.info(f"Wrote {len(base_prompts)} lines to {path}")
 
 
-def generate_lists_nvns(items, n_sizes, prompt_template, output_instruction):
-    prompts = []
-    for n in n_sizes:
-        for group in itertools.combinations(items, n):
-            prompts.append(
-                " ".join([
-                    SYSTEM_PROMPT,
-                    prompt_template.format(lst=", ".join(group)),
-                    output_instruction,
-                    OUTPUT_FORMAT_PROMPT
-                ])
-            )
-    return prompts
+def generate_prompts_with_value_list(
+    variable_values: dict,
+    output_dir: Path,
+    value_list: Sequence[str],
+    vars_to_use: list = ["budget", "term", "risk", "environment"],
+    *,
+    base_filename: str = "chosen_tokens",
+    list_question: str = TOKENS_PROMPT,
+    min_subset_size: int = 2,
+    system_prompt: str = SYSTEM_PROMPT,
+    output_format_prefix: str = OUTPUT_FORMAT_PREFIX_TOKENS,
+    output_format_prompt: str = OUTPUT_FORMAT_PROMPT,
+) -> None:
+    base_prompts = generate_base_prompts(variable_values, vars_to_use=vars_to_use)
+    safe_vars = "_".join(vars_to_use)
 
+    subsets: List[Tuple[str, ...]] = []
+    tokens = list(value_list)
+    for k in range(min_subset_size, len(tokens) + 1):
+        subsets.extend(itertools.combinations(tokens, k))
 
-def main():
-    prompts_1v1_tokens = generate_pairs_1v1(
-        TOKEN_LIST,
-        prompt_template="I want to invest in {a} or {b}.",
-        output_instruction=OUT_1V1_TOKENS
-    )
-    file_name = os.path.join(OUTPUT_PATH_PROMPTS, "tokens_1v1.txt")
-    _write_prompts(file_name, prompts_1v1_tokens)
-    logger.info(f"Saved prompts for '1 v 1 tokens' to: {file_name}")
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    prompts_nvn_tokens = generate_lists_nvns(
-        TOKEN_LIST,
-        N_SIZES_TOKENS,
-        prompt_template="Given these tokens: {lst}",
-        output_instruction=OUT_NVN_TOKENS
-    )
-    file_name = os.path.join(OUTPUT_PATH_PROMPTS, "tokens_nvn.txt")
-    _write_prompts(file_name, prompts_nvn_tokens)
-    logger.info(f"Saved prompts for 'n v n tokens' to: {file_name}")
+    path = out_dir / f"{base_filename}-{safe_vars}.txt"
+    with path.open("w", encoding="utf-8") as f:
+        for p in base_prompts:
+            for subset in subsets:
+                subset_str = ", ".join(subset)
+                line = (
+                    f"{system_prompt} {p} {list_question}{subset_str} "
+                    f"{output_format_prefix} {output_format_prompt}"
+                )
+                f.write(line.strip() + "\n")
 
-    prompts_1v1_exchanges = generate_pairs_1v1(
-        EXCHANGE_LIST,
-        prompt_template="I want to invest using {a} or {b}.",
-        output_instruction=OUT_1V1_EXCHANGES
-    )
-    file_name = os.path.join(OUTPUT_PATH_PROMPTS, "exchanges_1v1.txt")
-    _write_prompts(file_name, prompts_1v1_exchanges)
-    logger.info(f"Saved prompts for 'n v n exchanges' to: {file_name}")
-
-    prompts_nvn_exchanges = generate_lists_nvns(
-        EXCHANGE_LIST,
-        N_SIZES_EXCHANGES,
-        prompt_template="Given these exchanges: {lst}",
-        output_instruction=OUT_NVN_EXCHANGES
-    )
-    file_name = os.path.join(OUTPUT_PATH_PROMPTS, "exchanges_nvn.txt")
-    _write_prompts(file_name, prompts_nvn_exchanges)
-    logger.info(f"Saved prompts for 'n v n exchanges' to: {file_name}")
+    logger.info(f"Wrote {len(base_prompts) * len(subsets)} lines to {path}")
 
 
 if __name__ == "__main__":
-    main()
+    generate_prompts_with_general_question(
+        variable_values=VARIABLE_VALUES_GENERAL,
+        output_dir=PROMPT_FILES_PATH,
+        possible_tokens=TOKENS_LIST,
+        base_filename="general",
+    )
+
+    generate_prompts_with_value_list(
+        variable_values=VARIABLE_VALUES_GENERAL,
+        output_dir=PROMPT_FILES_PATH,
+        value_list=TOKENS_LIST,
+        base_filename="chosen_tokens",
+    )

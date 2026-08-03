@@ -24,7 +24,11 @@ def main(model: str, input_file: Path) -> None:
 if __name__ == "__main__":
     env_path = Path(__file__).resolve().parent.parent / ".env"
     load_dotenv(dotenv_path=env_path)
-    input_file_ = PROMPT_FILES_PATH / "exchanges_1v1.txt"
+    input_files = [
+        PROMPT_FILES_PATH / "chosen_tokens-budget_term_risk_environment.txt",
+        PROMPT_FILES_PATH / "general-budget_term_risk_environment.txt"
+    ]
 
     for m in supported_models:
-        main(m, input_file_)
+        for file in input_files:
+            main(m, file)

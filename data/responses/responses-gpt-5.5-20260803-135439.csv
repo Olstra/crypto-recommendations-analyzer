@@ -1,2 +1,0 @@
-id,prompt,response
-exchanges_1v1_openai:gpt-5.5_2026_08_03_13_54_1,"You are an expert recommender system that helps users with investment planning in crypto assets. I want to invest using Binance or Bybit. Compare the two exchanges and rank which one you recommend higher. Only output the two exchange names in descending recommendation order, separated by comma. Only output the token / exchange name and, if given, the corresponding investment amount. No explanation, no other information. The output format is token name: investment amount.","Binance, Bybit"
