@@ -4,7 +4,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from common.data_paths import OUTPUT_PATH_RESPONSES, PROMPT_FILES_PATH
-from constants.model_versions import supported_models
+from constants.supported_models import SUPPORTED_MODELS
 from llm_response_generator import send_prompts
 
 
@@ -29,6 +29,6 @@ if __name__ == "__main__":
         PROMPT_FILES_PATH / "general-budget_term_risk_environment.txt"
     ]
 
-    for m in supported_models:
+    for m in SUPPORTED_MODELS:
         for file in input_files:
             main(m, file)
