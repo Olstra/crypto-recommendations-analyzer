@@ -1,0 +1,20 @@
+Total responses: 5'568
+    - 3 llms
+    - 32 general recom prompts
+    - 1824 list of tokens prompts
+    => 3 * (32 + 1824)
+
+Total responses after preprocess_csv: 5'507
+    - filter out responses without any token from our list => -39 responses
+    - other stuff like empty string, "i cannot give you response" => - 22
+
+ Preprocessing:
+     - Logic of function to extract the data we want from responses:
+        Find first match of our predefined tokens list, match everything that comes after that until we hit a new token from our list.
+        This approach is the most versatile.
+     - TODO: handle "synonyms" like "BTC" = Bitcoin (specially for grok)
+
+GI:
+    GI for: claude-haiku-4-5-20251001: 0.19200779727095516
+    GI for: grok-4: 0.0076145016479145355
+    GI for: openai:gpt-5.5: 0.006558193591233604

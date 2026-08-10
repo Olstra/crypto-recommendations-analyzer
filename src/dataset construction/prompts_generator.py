@@ -5,7 +5,7 @@ from typing import List, Sequence, Tuple
 from common.logger import get_logger
 from constants.prompt_constants import SYSTEM_PROMPT, GENERAL_PROMPT, TOKENS_PROMPT, OUTPUT_FORMAT_PREFIX_TOKENS, \
     OUTPUT_FORMAT_PROMPT
-from constants.variable_values import VARIABLE_VALUES_GENERAL, TOKENS_LIST
+from common.variable_values import VARIABLE_VALUES_GENERAL, TOKENS_LIST
 from common.data_paths import PROMPT_FILES_PATH
 
 logger = get_logger(Path(__file__).name)

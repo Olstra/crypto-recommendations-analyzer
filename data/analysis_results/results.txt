@@ -1,0 +1,23 @@
+=== Dataset metrics ===
+total_responses_before_preprocessing: 5568
+total_responses_after_preprocessing: 5507
+total_models: 4
+
+=== Top 3 products overall (by mention frequency) ===
+#1 Ethereum (mentions=3035)
+#2 Bitcoin (mentions=3030)
+#3 Solana (mentions=2927)
+
+=== Top 3 products per LLM (by mention frequency) ===
+[claude-haiku-4-5-20251001]
+  #1 Ethereum (mentions_per_llm=1022)
+  #2 Bitcoin (mentions_per_llm=1016)
+  #3 Solana (mentions_per_llm=940)
+[grok-4]
+  #1 Bitcoin (mentions_per_llm=994)
+  #2 Ethereum (mentions_per_llm=994)
+  #3 Solana (mentions_per_llm=979)
+[openai:gpt-5.5]
+  #1 Bitcoin (mentions_per_llm=1020)
+  #2 Ethereum (mentions_per_llm=1019)
+  #3 Solana (mentions_per_llm=1008)
