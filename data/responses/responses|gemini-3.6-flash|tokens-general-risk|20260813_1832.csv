@@ -1,0 +1,15 @@
+id,prompt,response
+tokens-general-risk|gemini-3.6-flash|20260813_1832|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+USD Coin: 30%
+Ethereum: 20%"
+tokens-general-risk|gemini-3.6-flash|20260813_1832|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 15%
+Chainlink: 10%
+Avalanche: 5%"
+tokens-general-risk|gemini-3.6-flash|20260813_1832|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 30%
+Sui (SUI): 20%
+Render (RENDER): 15%
+Fetch.ai (FET): 15%
+Pepe (PEPE): 10%
+dogwifhat (WIF): 10%"

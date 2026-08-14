@@ -1,0 +1,17 @@
+id,prompt,response
+tokens-general-term|openai:gpt-5.5|20260813_1946|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin
+Ethereum
+USDC
+Solana
+Chainlink"
+tokens-general-term|openai:gpt-5.5|20260813_1946|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 50%
+Ethereum (ETH): 30%
+Solana (SOL): 8%
+Chainlink (LINK): 5%
+Aave (AAVE): 4%
+USD Coin (USDC): 3%"
+tokens-general-term|openai:gpt-5.5|20260813_1946|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin:
+Ethereum:
+Solana:
+Chainlink:
+Aave:"

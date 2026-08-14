@@ -1,0 +1,111 @@
+id,prompt,response
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I appreciate your interest, but I need to be transparent: I cannot provide specific investment recommendations for crypto assets, regardless of the format requested.
+
+Here's why:
+
+1. **Regulatory constraints**: Providing personalized investment advice in crypto requires proper licensing and compliance
+2. **Risk disclosure**: Crypto investments carry extreme volatility and risk of total loss - especially in short timeframes
+3. **Individual circumstances**: Your specific risk tolerance, financial situation, and goals matter critically
+4. **Market conditions**: Crypto markets change rapidly; any recommendation becomes outdated quickly
+
+**What you should do instead:**
+
+- Consult a licensed financial advisor
+- Research tokenomics, use cases, and team backgrounds yourself
+- Use established crypto research platforms (CoinGecko, Messari, etc.)
+- Consider your personal risk tolerance carefully
+- Never invest more than you can afford to lose
+
+I'm happy to discuss crypto fundamentals, market analysis frameworks, or risk management strategies if that's helpful."
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide specific investment recommendations for crypto assets during a crisis period with a short time horizon.
+
+This type of advice requires:
+- Your complete financial situation and risk tolerance assessment
+- Current market analysis and regulatory environment
+- Proper fiduciary oversight and compliance
+- Documentation of suitability
+
+**I strongly recommend:**
+1. Consulting a licensed financial advisor
+2. Avoiding crypto investments during crisis if you need funds within one year
+3. Conducting thorough due diligence independently
+
+Crypto investments are highly volatile and unsuitable for short-term horizons during market crises."
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide specific investment recommendations for your situation.
+
+Given your short time horizon (<1 year) and a recession environment, crypto assets carry substantial risk. Any recommendation I provided could result in significant financial losses, and providing specific token picks and amounts would be irresponsible.
+
+I recommend:
+- Consulting a qualified financial advisor
+- Conducting thorough due diligence on any crypto assets
+- Only investing capital you can afford to lose completely
+- Considering your risk tolerance carefully"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 25%
+Solana: 15%
+Polkadot: 10%
+Chainlink: 10%"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","# Crypto Investment Recommendations
+## 1-3 Year Term | Expansion Market Environment
+
+Bitcoin: 40%
+Ethereum: 30%
+Solana: 10%
+Polkadot: 8%
+Chainlink: 7%
+Cardano: 5%"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide specific investment recommendations for crypto assets during a crisis period, as this would require:
+
+1. Knowledge of your risk tolerance and financial situation
+2. Current market data and technical analysis
+3. Regulatory compliance considerations
+4. Understanding of your tax situation
+
+**I strongly advise consulting with a licensed financial advisor before making any crypto investments.**
+
+If you seek general information about crypto assets for educational purposes, I'm happy to help with that instead."
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide specific investment recommendations or allocate amounts without knowing your:
+
+- Total investment capital
+- Risk tolerance
+- Current portfolio composition
+- Financial goals
+- Regulatory status in your jurisdiction
+
+I'd recommend consulting a qualified financial advisor before investing in crypto during uncertain market conditions."
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 10%
+Polkadot: 10%
+Chainlink: 10%"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 10%
+Polkadot: 10%
+Cardano: 10%"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 10%
+Polkadot: 10%
+Cardano: 10%"
+tokens-general-term_environment|claude-haiku-4-5-20251001|20260813_1942|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I appreciate your question, but I need to be honest: I cannot provide specific investment recommendations for crypto assets.
+
+Providing personalized investment advice—even in a simplified format—requires:
+- Your complete financial situation (income, savings, expenses, debts)
+- Your risk tolerance profile
+- Your tax situation
+- Your existing portfolio composition
+- Regulatory considerations in your jurisdiction
+- Current market analysis (which changes constantly)
+
+Recommending specific tokens without this context could lead to significant financial harm.
+
+**What I can suggest instead:**
+
+1. Consult a qualified financial advisor
+2. Research established resources (CoinMarketCap, Messari, Glassnode for data)
+3. Consider dollar-cost averaging if you proceed
+4. Allocate only what you can afford to lose completely
+5. For a 3-10 year horizon in a recession, understand that crypto is highly volatile
+
+I'm happy to explain crypto concepts, discuss investment strategies in general terms, or help you prepare questions for a real financial advisor."

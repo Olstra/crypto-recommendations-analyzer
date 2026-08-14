@@ -1,0 +1,38 @@
+id,prompt,response
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|1,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 40 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|2,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 40 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|3,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 40 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|4,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polygon: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|5,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|6,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|7,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polygon: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|8,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|9,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|10,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Stablecoin (USDC/USDT): 300 CHF"
+tokens-general-budget_risk_term|claude-haiku-4-5-20251001|20260813_1941|11,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Polkadot: 150 CHF
+Cardano: 150 CHF"

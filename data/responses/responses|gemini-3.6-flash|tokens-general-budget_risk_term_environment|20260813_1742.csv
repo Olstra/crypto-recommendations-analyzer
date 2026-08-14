@@ -1,0 +1,1287 @@
+id,prompt,response
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|1,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50 CHF
+USD Coin: 30 CHF
+Ethereum: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|2,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 50 CHF
+PAX Gold: 30 CHF
+Bitcoin: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|3,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 60 CHF
+Bitcoin: 30 CHF
+Ethereum: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|4,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 30 CHF
+USD Coin: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|5,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 65 CHF
+Ethereum (ETH): 35 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|6,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 50 CHF
+Bitcoin: 35 CHF
+Ethereum: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|7,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 60 CHF
+Ethereum (ETH): 25 CHF
+USD Coin (USDC): 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|8,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 30 CHF
+USD Coin: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|9,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70 CHF
+Ethereum: 30 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|10,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70 CHF
+Ethereum: 20 CHF
+PAX Gold: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|11,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 70 CHF
+Ethereum (ETH): 30 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|12,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70 CHF
+Ethereum: 30 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|13,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35 CHF
+Ethereum: 25 CHF
+Solana: 20 CHF
+Chainlink: 10 CHF
+NEAR Protocol: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|14,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+PAX Gold: 30 CHF
+Ethereum: 20 CHF
+USD Coin: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|15,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 50 CHF
+ETH: 30 CHF
+USDC: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|16,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35 CHF
+Solana: 30 CHF
+Ethereum: 20 CHF
+Chainlink: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|17,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 30 CHF
+Solana: 20 CHF
+Chainlink: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|18,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 30 CHF
+Solana: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|19,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|20,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 30 CHF
+Solana: 20 CHF
+Chainlink: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|21,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50 CHF
+Ethereum: 30 CHF
+Solana: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|22,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 30 CHF
+Solana: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|23,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60 CHF
+Ethereum: 30 CHF
+Solana: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|24,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45 CHF
+Ethereum: 35 CHF
+Solana: 12 CHF
+Chainlink: 8 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|25,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 35 CHF
+Sui: 25 CHF
+Render: 20 CHF
+Pepe: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|26,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 35 CHF
+Bitcoin: 25 CHF
+Ethereum: 20 CHF
+Avalanche: 10 CHF
+Sui: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|27,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 40 CHF
+Sui (SUI): 25 CHF
+Render (RENDER): 20 CHF
+Pepe (PEPE): 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|28,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 35 CHF
+Sui: 25 CHF
+Render: 20 CHF
+Pepe: 20 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|29,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 35 CHF
+Ethereum: 25 CHF
+Near Protocol: 15 CHF
+Render: 15 CHF
+Pepe: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|30,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40 CHF
+Ethereum: 30 CHF
+Render: 15 CHF
+NEAR Protocol: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|31,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40 CHF
+Ethereum: 30 CHF
+Render: 15 CHF
+Chainlink: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|32,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40 CHF
+Sui: 25 CHF
+Render: 20 CHF
+Injective: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|33,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40 CHF
+Ethereum: 25 CHF
+Chainlink: 20 CHF
+Sui: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|34,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30 CHF
+Bitcoin: 25 CHF
+Ethereum: 20 CHF
+Chainlink: 15 CHF
+Render: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|35,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30 CHF
+Ethereum: 25 CHF
+Bitcoin: 20 CHF
+Chainlink: 15 CHF
+Render: 10 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|36,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40 CHF
+Chainlink: 25 CHF
+Near Protocol: 20 CHF
+Render: 15 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|37,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 500 CHF
+USD Coin (USDC): 300 CHF
+Ethereum (ETH): 200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|38,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 500 CHF
+PAXG: 300 CHF
+USDT: 200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|39,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 700 CHF
+Bitcoin: 200 CHF
+Ethereum: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|40,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 600 CHF
+Ethereum: 300 CHF
+USD Coin: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|41,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 600 CHF
+Ethereum: 300 CHF
+Solana: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|42,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 600 CHF
+USD Coin: 300 CHF
+Ethereum: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|43,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 600 CHF
+USD Coin: 250 CHF
+Ethereum: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|44,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 600 CHF
+Ethereum (ETH): 300 CHF
+USD Coin (USDC): 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|45,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 700 CHF
+Ethereum: 300 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|46,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 700 CHF
+Ethereum: 300 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|47,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 700 CHF
+Ethereum: 300 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|48,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 650 CHF
+Ethereum: 350 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|49,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF
+Chainlink: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|50,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 600 CHF
+Ethereum: 300 CHF
+USD Coin: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|51,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 500 CHF
+USD Coin (USDC): 300 CHF
+Ethereum (ETH): 200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|52,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Solana: 180 CHF
+Chainlink: 120 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|53,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF
+Chainlink: 100 CHF
+Avalanche: 50 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|54,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 500 CHF
+Ethereum: 350 CHF
+Solana: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|55,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 600 CHF
+Ethereum (ETH): 300 CHF
+Solana (SOL): 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|56,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF
+Chainlink: 100 CHF
+Avalanche: 50 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|57,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 400 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF
+Chainlink: 100 CHF
+Avalanche: 50 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|58,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 550 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|59,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 550 CHF
+Ethereum: 350 CHF
+Solana: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|60,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 450 CHF
+Ethereum: 300 CHF
+Solana: 150 CHF
+Chainlink: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|61,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 350 CHF
+Sui: 250 CHF
+Render: 200 CHF
+Pepe: 200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|62,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 350 CHF
+Bitcoin (BTC): 250 CHF
+Ethereum (ETH): 200 CHF
+Render (RENDER): 100 CHF
+Pepe (PEPE): 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|63,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 400 CHF
+Avalanche: 250 CHF
+Render: 200 CHF
+Pepe: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|64,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","SOL: 400 CHF
+SUI: 250 CHF
+RENDER: 200 CHF
+WIF: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|65,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 350 CHF
+Ethereum: 250 CHF
+Sui: 200 CHF
+Render: 120 CHF
+Fetch.ai: 80 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|66,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 350 CHF
+Ethereum: 250 CHF
+Sui: 150 CHF
+Chainlink: 150 CHF
+Pepe: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|67,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 350 CHF
+Bitcoin: 250 CHF
+Ethereum: 200 CHF
+Render: 120 CHF
+Chainlink: 80 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|68,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 300 CHF
+Ethereum: 200 CHF
+Render: 150 CHF
+Sui: 150 CHF
+Chainlink: 100 CHF
+Fetch.ai: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|69,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 300 CHF
+Ethereum: 200 CHF
+Sui: 150 CHF
+Render: 150 CHF
+Bittensor: 100 CHF
+Chainlink: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|70,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 400 CHF
+Solana: 300 CHF
+Bitcoin: 150 CHF
+Chainlink: 100 CHF
+Render: 50 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|71,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 300 CHF
+Ethereum: 250 CHF
+Chainlink: 150 CHF
+NEAR Protocol: 150 CHF
+Render: 150 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|72,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 350 CHF
+Ethereum: 250 CHF
+Bittensor: 150 CHF
+Render: 150 CHF
+Sui: 100 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|73,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5000 CHF
+USD Coin: 3000 CHF
+Ethereum: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|74,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 5000 CHF
+PAXG: 3000 CHF
+USDT: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|75,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin (USDC): 5000 CHF
+PAX Gold (PAXG): 3000 CHF
+Bitcoin (BTC): 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|76,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin (USDC): 5000 CHF
+Bitcoin (BTC): 3500 CHF
+Ethereum (ETH): 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|77,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6000 CHF
+Ethereum: 3000 CHF
+USD Coin: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|78,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 3500 CHF
+PAX Gold: 3000 CHF
+Bitcoin: 2500 CHF
+Ethereum: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|79,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5'000 CHF
+USD Coin: 3'000 CHF
+PAX Gold: 1'500 CHF
+Ethereum: 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|80,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6000 CHF
+Ethereum: 3000 CHF
+USD Coin: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|81,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 7000 CHF
+Ethereum: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|82,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6'000 CHF
+Ethereum: 2'500 CHF
+USD Coin: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|83,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6000 CHF  
+Ethereum: 2500 CHF  
+USD Coin: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|84,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6000 CHF
+Ethereum: 3000 CHF
+USD Coin: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|85,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 3500 CHF
+Ethereum: 2500 CHF
+Solana: 2000 CHF
+Chainlink: 1000 CHF
+NEAR Protocol: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|86,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5'000 CHF
+USD Coin: 3'000 CHF
+Ethereum: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|87,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 4500 CHF
+USD Coin: 3500 CHF
+Ethereum: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|88,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 4000 CHF
+Ethereum: 3500 CHF
+Solana: 1500 CHF
+Chainlink: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|89,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 3,500 CHF
+Ethereum: 2,500 CHF
+Solana: 2,000 CHF
+Chainlink: 1,000 CHF
+Avalanche: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|90,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 5000 CHF
+ETH: 3000 CHF
+USDC: 1000 CHF
+SOL: 600 CHF
+LINK: 400 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|91,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5'500 CHF
+Ethereum: 3'000 CHF
+Solana: 1'000 CHF
+Chainlink: 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|92,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 4000 CHF
+Ethereum: 3000 CHF
+Solana: 1500 CHF
+Chainlink: 1000 CHF
+Avalanche: 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|93,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 3500 CHF
+Ethereum: 3000 CHF
+Solana: 1500 CHF
+Chainlink: 1000 CHF
+Avalanche: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|94,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5500 CHF
+Ethereum: 3000 CHF
+Solana: 1000 CHF
+Chainlink: 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|95,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5500 CHF
+Ethereum: 3000 CHF
+Solana: 800 CHF
+Chainlink: 400 CHF
+Avalanche: 300 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|96,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 4000 CHF
+Ethereum (ETH): 3000 CHF
+Solana (SOL): 1500 CHF
+Chainlink (LINK): 1000 CHF
+Avalanche (AVAX): 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|97,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 3000 CHF
+Ethereum: 2000 CHF
+Sui: 1500 CHF
+Fetch.ai: 1500 CHF
+Pepe: 1000 CHF
+Avalanche: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|98,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 3500 CHF
+Ethereum (ETH): 2500 CHF
+Bitcoin (BTC): 2000 CHF
+Avalanche (AVAX): 1200 CHF
+Dogecoin (DOGE): 800 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|99,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 3,500 CHF
+Bitcoin: 2,500 CHF
+Ethereum: 2,000 CHF
+Near Protocol: 1,000 CHF
+Pepe: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|100,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 3500 CHF
+Ethereum (ETH): 2000 CHF
+Artificial Superintelligence Alliance (FET): 1500 CHF
+Sui (SUI): 1200 CHF
+Pepe (PEPE): 1000 CHF
+Chainlink (LINK): 800 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|101,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 3000 CHF
+Ethereum: 2000 CHF
+Near Protocol: 1500 CHF
+Render: 1500 CHF
+Sui: 1000 CHF
+Bitcoin: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|102,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 2500 CHF
+Ethereum (ETH): 2000 CHF
+Solana (SOL): 1800 CHF
+Chainlink (LINK): 1200 CHF
+Render (RENDER): 1000 CHF
+Avalanche (AVAX): 800 CHF
+Sui (SUI): 700 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|103,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 3500 CHF
+Ethereum (ETH): 2500 CHF
+Solana (SOL): 2000 CHF
+Bittensor (TAO): 1000 CHF
+Chainlink (LINK): 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|104,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 3000 CHF
+Ethereum: 2500 CHF
+Bitcoin: 1500 CHF
+Chainlink: 1000 CHF
+Render: 1000 CHF
+Sui: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|105,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 3000 CHF
+Bitcoin: 2000 CHF
+Ethereum: 2000 CHF
+Chainlink: 1000 CHF
+Sui: 1000 CHF
+Render: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|106,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 3000 CHF
+Ethereum (ETH): 2500 CHF
+Solana (SOL): 2000 CHF
+Chainlink (LINK): 1000 CHF
+Avalanche (AVAX): 800 CHF
+Near Protocol (NEAR): 700 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|107,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 3000 CHF
+Bitcoin: 2500 CHF
+Solana: 2000 CHF
+Chainlink: 1000 CHF
+Render: 1000 CHF
+Uniswap: 500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|108,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 2500 CHF
+Ethereum: 2000 CHF
+Bitcoin: 1500 CHF
+NEAR Protocol: 1200 CHF
+Chainlink: 1000 CHF
+Sui: 1000 CHF
+Render: 800 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|109,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 10'000 CHF
+Bitcoin: 6'000 CHF
+Ethereum: 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|110,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 10,000 CHF
+PAXG: 6,000 CHF
+USDT: 3,000 CHF
+BTC: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|111,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 10000 CHF
+PAXG: 6000 CHF
+XAUT: 3000 CHF
+BTC: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|112,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 10'000 CHF
+Bitcoin: 7'000 CHF
+Ethereum: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|113,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 10000 CHF
+Ethereum: 6000 CHF
+USD Coin: 2000 CHF
+Solana: 1000 CHF
+Chainlink: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|114,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 10'000 CHF
+USD Coin: 6'000 CHF
+Ethereum: 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|115,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 10'000 CHF
+Bitcoin: 7'000 CHF
+Ethereum: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|116,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12000 CHF
+Ethereum: 6000 CHF
+USD Coin: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|117,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12,000 CHF
+Ethereum: 6,000 CHF
+Solana: 1,000 CHF
+Chainlink: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|118,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12'000 CHF
+Ethereum: 5'000 CHF
+Pax Gold: 2'000 CHF
+USD Coin: 1'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|119,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 13,000 CHF
+Ethereum: 5,000 CHF
+PAX Gold: 2,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|120,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12'000 CHF
+Ethereum: 6'000 CHF
+Chainlink: 1'000 CHF
+Solana: 1'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|121,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 7,000 CHF
+Ethereum: 5,500 CHF
+Solana: 3,500 CHF
+Near Protocol: 2,000 CHF
+Render: 2,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|122,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 8000 CHF
+USD Coin: 7000 CHF
+Ethereum: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|123,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 9'000 CHF
+Ethereum: 6'000 CHF
+USD Coin: 3'000 CHF
+Solana: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|124,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 8000 CHF
+Ethereum: 6000 CHF
+Solana: 3500 CHF
+Chainlink: 1500 CHF
+Avalanche: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|125,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 7000 CHF
+Ethereum: 5000 CHF
+Solana: 4000 CHF
+Chainlink: 2000 CHF
+Avalanche: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|126,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 9'000 CHF
+Ethereum: 6'000 CHF
+USD Coin: 3'000 CHF
+Solana: 1'000 CHF
+Chainlink: 1'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|127,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 10'000 CHF
+Ethereum: 6'000 CHF
+Solana: 2'000 CHF
+Chainlink: 1'000 CHF
+USD Coin: 1'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|128,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 8000 CHF
+Ethereum: 6000 CHF
+Solana: 3000 CHF
+Chainlink: 1500 CHF
+Avalanche: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|129,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 8000 CHF
+Ethereum: 6500 CHF
+Solana: 2500 CHF
+Chainlink: 1500 CHF
+Avalanche: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|130,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 11'000 CHF
+Ethereum: 6'000 CHF
+Solana: 1'500 CHF
+Chainlink: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|131,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12'000 CHF
+Ethereum: 6'000 CHF
+Solana: 1'000 CHF
+Chainlink: 1'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|132,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 9,000 CHF
+Ethereum: 6,000 CHF
+Solana: 2,500 CHF
+Chainlink: 1,500 CHF
+Avalanche: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|133,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 6000 CHF
+Ethereum: 4000 CHF
+Bittensor: 3000 CHF
+Sui: 3000 CHF
+Pepe: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|134,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 7'000 CHF
+Ethereum: 5'000 CHF
+Solana: 4'000 CHF
+Sui: 2'000 CHF
+Pepe: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|135,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 7'000 CHF
+Ethereum: 5'000 CHF
+Bitcoin: 4'000 CHF
+Chainlink: 2'000 CHF
+Render: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|136,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 6,000 CHF
+Ethereum: 4,000 CHF
+Near Protocol: 3,500 CHF
+Render: 2,500 CHF
+Sui: 2,000 CHF
+Pepe: 2,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|137,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 5'000 CHF
+Ethereum: 4'000 CHF
+Bittensor: 3'000 CHF
+Sui: 2'500 CHF
+Render: 2'000 CHF
+Pepe: 2'000 CHF
+Chainlink: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|138,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 6'000 CHF
+Sui: 4'000 CHF
+Bittensor: 4'000 CHF
+Render: 3'000 CHF
+Pepe: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|139,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6'000 CHF
+Ethereum: 4'500 CHF
+Solana: 3'500 CHF
+Chainlink: 2'000 CHF
+Render: 2'000 CHF
+Sui: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|140,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 6000 CHF
+Ethereum: 4000 CHF
+Bitcoin: 3000 CHF
+Near Protocol: 2500 CHF
+Chainlink: 2000 CHF
+Sui: 1500 CHF
+Render: 1000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|141,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 5,000 CHF
+Bitcoin: 4,000 CHF
+Ethereum: 3,000 CHF
+Sui: 2,500 CHF
+Render: 2,000 CHF
+Chainlink: 1,500 CHF
+Injective: 1,000 CHF
+Pepe: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|142,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6,000 CHF
+Ethereum: 5,000 CHF
+Solana: 3,500 CHF
+Chainlink: 2,000 CHF
+NEAR Protocol: 1,500 CHF
+Render: 1,000 CHF
+Bittensor: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|143,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 6,000 CHF
+Ethereum: 5,000 CHF
+Solana: 4,000 CHF
+Chainlink: 2,500 CHF
+Render: 1,500 CHF
+Avalanche: 1,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|144,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 20'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 5'000 CHF
+Bitcoin: 4'000 CHF
+Solana: 3'500 CHF
+Chainlink: 2'500 CHF
+Near Protocol: 2'000 CHF
+Render: 1'500 CHF
+Sui: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|145,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 15,000 CHF
+Bitcoin: 10,000 CHF
+Ethereum: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|146,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 18'000 CHF
+PAXG: 9'000 CHF
+USDT: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|147,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 21'000 CHF
+DAI: 4'500 CHF
+Bitcoin: 3'000 CHF
+Tether: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|148,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 15000 CHF
+BTC: 10500 CHF
+ETH: 4500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|149,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+Ethereum: 9'000 CHF
+USD Coin: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|150,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 15000 CHF
+Bitcoin: 12000 CHF
+Ethereum: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|151,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+USD Coin: 9'000 CHF
+Ethereum: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|152,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+Ethereum: 9'000 CHF
+USD Coin: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|153,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20000 CHF
+Ethereum: 7500 CHF
+Solana: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|154,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 18000 CHF
+Ethereum (ETH): 9000 CHF
+Pax Gold (PAXG): 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|155,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 19'500 CHF
+Ethereum (ETH): 7'500 CHF
+PAX Gold (PAXG): 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|156,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+Ethereum: 9'000 CHF
+USD Coin: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|157,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 10,500 CHF
+Ethereum: 7,500 CHF
+Solana: 6,000 CHF
+Chainlink: 3,000 CHF
+Avalanche: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|158,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 12000 CHF
+USDC: 10000 CHF
+ETH: 5000 CHF
+USDT: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|159,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 15,000 CHF
+ETH: 9,000 CHF
+USDC: 6,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|160,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12000 CHF
+Ethereum: 9000 CHF
+Solana: 4500 CHF
+Chainlink: 3000 CHF
+Avalanche: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|161,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 11000 CHF
+Ethereum: 8500 CHF
+Solana: 4500 CHF
+Chainlink: 3000 CHF
+Avalanche: 1800 CHF
+NEAR Protocol: 1200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|162,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 13,500 CHF
+Ethereum: 9,000 CHF
+USD Coin: 4,500 CHF
+Solana: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|163,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 15'000 CHF
+Ethereum: 9'000 CHF
+Solana: 3'000 CHF
+Chainlink: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|164,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 13,500 CHF
+Ethereum (ETH): 9,000 CHF
+Solana (SOL): 4,500 CHF
+Chainlink (LINK): 1,800 CHF
+Avalanche (AVAX): 1,200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|165,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 13,500 CHF
+Ethereum: 9,000 CHF
+Solana: 4,500 CHF
+Chainlink: 1,500 CHF
+Avalanche: 1,500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|166,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 15'000 CHF
+Ethereum: 9'000 CHF
+Solana: 3'000 CHF
+Chainlink: 1'500 CHF
+Avalanche: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|167,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 14000 CHF
+Ethereum: 10000 CHF
+Solana: 3500 CHF
+Chainlink: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|168,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12000 CHF
+Ethereum: 9000 CHF
+Solana: 4500 CHF
+Chainlink: 3000 CHF
+Avalanche: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|169,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 9000 CHF
+Ethereum (ETH): 6000 CHF
+Bitcoin (BTC): 4500 CHF
+Sui (SUI): 3500 CHF
+Render (RENDER): 3000 CHF
+Fetch.ai (FET): 2000 CHF
+dogwifhat (WIF): 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|170,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 9000 CHF
+Ethereum: 7500 CHF
+Solana: 6000 CHF
+Render: 4500 CHF
+Pepe: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|171,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 10000 CHF
+Solana: 8000 CHF
+Bitcoin: 5000 CHF
+Sui: 4000 CHF
+Pepe: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|172,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 10,000 CHF
+Ethereum: 6,000 CHF
+Sui: 4,500 CHF
+Render: 3,500 CHF
+Fetch.ai: 3,000 CHF
+Pepe: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|173,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 9'000 CHF
+Ethereum: 6'000 CHF
+Bitcoin: 4'500 CHF
+NEAR Protocol: 3'500 CHF
+Sui: 3'000 CHF
+Chainlink: 2'500 CHF
+Render: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|174,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 10,000 CHF
+Ethereum: 8,000 CHF
+Solana: 6,000 CHF
+Render: 3,000 CHF
+Chainlink: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|175,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 10,000 CHF
+Solana: 8,000 CHF
+Bitcoin: 6,000 CHF
+Chainlink: 3,500 CHF
+Render: 2,500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|176,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 8000 CHF
+Bitcoin: 7000 CHF
+Ethereum: 6000 CHF
+Sui: 3500 CHF
+Render: 3000 CHF
+Chainlink: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|177,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 8'000 CHF
+Solana: 7'000 CHF
+Bitcoin: 5'000 CHF
+Chainlink: 3'000 CHF
+NEAR Protocol: 2'500 CHF
+Render: 2'500 CHF
+Sui: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|178,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 8000 CHF
+Ethereum: 6000 CHF
+Bittensor: 4000 CHF
+Render: 4000 CHF
+Chainlink: 3000 CHF
+Sui: 3000 CHF
+Bitcoin: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|179,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 9'000 CHF
+Ethereum: 7'500 CHF
+Solana: 4'500 CHF
+Bittensor: 3'000 CHF
+Chainlink: 3'000 CHF
+Sui: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|180,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 30'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 7000 CHF
+Solana: 6500 CHF
+Bitcoin: 4500 CHF
+Chainlink: 3500 CHF
+Near Protocol: 3000 CHF
+Avalanche: 2500 CHF
+Render: 1500 CHF
+Sui: 1500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|181,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 20000 CHF
+BTC: 12000 CHF
+ETH: 6000 CHF
+SOL: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|182,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 24000 CHF
+PAXG: 12000 CHF
+BTC: 4000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|183,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 24'000 CHF
+USDT: 8'000 CHF
+Bitcoin: 8'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|184,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 24,000 CHF
+Bitcoin: 10,000 CHF
+Ethereum: 6,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|185,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22000 CHF
+Ethereum: 12000 CHF
+USD Coin: 4000 CHF
+Solana: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|186,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 20000 CHF
+Bitcoin: 14000 CHF
+Ethereum: 6000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|187,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 20000 CHF
+PAXG: 10000 CHF
+BTC: 8000 CHF
+ETH: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|188,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 24,000 CHF
+Ethereum: 12,000 CHF
+USD Coin: 4,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|189,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22000 CHF
+Ethereum: 12000 CHF
+USD Coin: 4000 CHF
+Solana: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|190,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 25000 CHF
+Ethereum: 10000 CHF
+USD Coin: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|191,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 26'000 CHF
+Ethereum: 10'000 CHF
+USD Coin: 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|192,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 26000 CHF
+Ethereum: 11000 CHF
+USD Coin: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|193,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 18000 CHF
+ETH: 14000 CHF
+SOL: 5000 CHF
+LINK: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|194,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 20'000 CHF
+USD Coin (USDC): 12'000 CHF
+Ethereum (ETH): 8'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|195,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+USD Coin: 14'000 CHF
+Ethereum: 8'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|196,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 18000 CHF
+ETH: 11000 CHF
+SOL: 5000 CHF
+LINK: 3000 CHF
+AVAX: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|197,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 18000 CHF
+Ethereum (ETH): 12000 CHF
+Solana (SOL): 5000 CHF
+Chainlink (LINK): 3000 CHF
+Avalanche (AVAX): 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|198,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22'000 CHF
+Ethereum: 12'000 CHF
+USD Coin: 4'000 CHF
+Solana: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|199,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 12'000 CHF
+Solana: 4'000 CHF
+Chainlink: 2'000 CHF
+USD Coin: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|200,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 16000 CHF
+Ethereum: 12000 CHF
+Solana: 6000 CHF
+Chainlink: 4000 CHF
+Avalanche: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|201,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18'000 CHF
+Ethereum: 12'000 CHF
+Solana: 5'000 CHF
+Chainlink: 3'000 CHF
+Avalanche: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|202,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 12'000 CHF
+Solana: 4'000 CHF
+Chainlink: 2'000 CHF
+Avalanche: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|203,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 12'000 CHF
+Solana: 4'000 CHF
+Chainlink: 2'000 CHF
+Avalanche: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|204,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 16000 CHF
+Ethereum: 12000 CHF
+Solana: 4000 CHF
+Chainlink: 3000 CHF
+Avalanche: 2500 CHF
+Near Protocol: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|205,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Sui: 8'000 CHF
+Ethereum: 7'000 CHF
+Render: 5'000 CHF
+Pepe: 5'000 CHF
+Bittensor: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|206,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Bitcoin: 10'000 CHF
+Ethereum: 8'000 CHF
+Pepe: 6'000 CHF
+Sui: 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|207,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12000 CHF
+Bitcoin: 10000 CHF
+Ethereum: 8000 CHF
+Render: 5000 CHF
+Pepe: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|208,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 15000 CHF
+Ethereum: 10000 CHF
+NEAR Protocol: 7000 CHF
+Render: 5000 CHF
+Pepe: 3000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|209,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Ethereum: 10'000 CHF
+Bitcoin: 6'000 CHF
+NEAR Protocol: 4'000 CHF
+Sui: 3'000 CHF
+Bittensor: 3'000 CHF
+Pepe: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|210,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Bitcoin: 10'000 CHF
+Ethereum: 8'000 CHF
+Render: 4'000 CHF
+Chainlink: 3'000 CHF
+Pepe: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|211,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12'000 CHF
+Ethereum: 10'000 CHF
+Solana: 8'000 CHF
+Chainlink: 4'000 CHF
+Render: 3'000 CHF
+Injective: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|212,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 12'000 CHF
+Bitcoin (BTC): 8'000 CHF
+Ethereum (ETH): 6'000 CHF
+Sui (SUI): 4'000 CHF
+Near Protocol (NEAR): 4'000 CHF
+Render (RENDER): 3'000 CHF
+Pepe (PEPE): 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|213,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Ethereum: 8'000 CHF
+Bitcoin: 6'000 CHF
+Render: 4'000 CHF
+Near Protocol: 4'000 CHF
+Sui: 3'000 CHF
+Chainlink: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|214,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'000 CHF
+Ethereum: 10'000 CHF
+Bitcoin: 6'000 CHF
+Chainlink: 4'000 CHF
+Near Protocol: 3'000 CHF
+Sui: 3'000 CHF
+Pendle: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|215,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 12000 CHF
+Ethereum: 10000 CHF
+Solana: 6000 CHF
+Bittensor: 3500 CHF
+Chainlink: 3000 CHF
+Sui: 2500 CHF
+Render: 1800 CHF
+Pendle: 1200 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|216,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 40'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12,000 CHF
+Ethereum: 10,000 CHF
+Bitcoin: 8,000 CHF
+Render: 4,000 CHF
+Chainlink: 3,000 CHF
+Sui: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|217,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 25'000 CHF
+BTC: 15'000 CHF
+ETH: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|218,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 22,500 CHF
+PAXG: 20,000 CHF
+USDT: 5,000 CHF
+BTC: 2,500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|219,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 35'000 CHF
+BTC: 10'000 CHF
+ETH: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|220,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 22'500 CHF
+USD Coin (USDC): 20'000 CHF
+Ethereum (ETH): 7'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|221,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30,000 CHF
+Ethereum: 15,000 CHF
+USD Coin: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|222,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22'500 CHF
+USD Coin: 15'000 CHF
+PAX Gold: 7'500 CHF
+Ethereum: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|223,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+PAX Gold: 15'000 CHF
+USD Coin: 10'000 CHF
+Ethereum: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|224,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30,000 CHF
+Ethereum: 15,000 CHF
+USD Coin: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|225,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30'000 CHF
+Ethereum: 15'000 CHF
+USD Coin: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|226,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30'000 CHF  
+USD Coin: 12'500 CHF  
+Ethereum: 7'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|227,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 25000 CHF
+Ethereum: 12500 CHF
+USD Coin: 7500 CHF
+PAX Gold: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|228,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 30,000 CHF
+Ethereum (ETH): 15,000 CHF
+Solana (SOL): 3,000 CHF
+Chainlink (LINK): 2,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|229,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 17,500 CHF
+Ethereum (ETH): 12,500 CHF
+Solana (SOL): 10,000 CHF
+Avalanche (AVAX): 5,000 CHF
+Chainlink (LINK): 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|230,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 20,000 CHF
+USDC: 15,000 CHF
+PAXG: 10,000 CHF
+ETH: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|231,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22'000 CHF
+Ethereum: 13'000 CHF
+USD Coin: 10'000 CHF
+Solana: 3'500 CHF
+Chainlink: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|232,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 15'000 CHF
+Solana: 7'500 CHF
+Chainlink: 5'000 CHF
+Avalanche: 2'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|233,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 18000 CHF
+Ethereum: 14000 CHF
+Solana: 8000 CHF
+Chainlink: 5000 CHF
+Avalanche: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|234,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 22,500 CHF
+Ethereum (ETH): 15,000 CHF
+USD Coin (USDC): 7,500 CHF
+Solana (SOL): 3,000 CHF
+Chainlink (LINK): 2,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|235,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 22'500 CHF
+Ethereum: 15'000 CHF
+USD Coin: 7'500 CHF
+Solana: 3'500 CHF
+Chainlink: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|236,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 15'000 CHF
+Solana: 7'500 CHF
+Chainlink: 4'000 CHF
+Avalanche: 3'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|237,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20'000 CHF
+Ethereum: 12'500 CHF
+Solana: 7'500 CHF
+Chainlink: 5'000 CHF
+Avalanche: 3'000 CHF
+Render: 2'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|238,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 25000 CHF
+Ethereum: 15000 CHF
+Solana: 5000 CHF
+Chainlink: 3000 CHF
+Avalanche: 2000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|239,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 25000 CHF
+Ethereum (ETH): 15000 CHF
+Solana (SOL): 5000 CHF
+Chainlink (LINK): 2500 CHF
+Cardano (ADA): 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|240,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20000 CHF
+Ethereum: 15000 CHF
+Solana: 7500 CHF
+Chainlink: 5000 CHF
+Avalanche: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|241,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 15000 CHF
+Sui: 10000 CHF
+Ethereum: 8000 CHF
+Render: 7000 CHF
+Bittensor: 5000 CHF
+Pepe: 5000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|242,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 20000 CHF
+Ethereum: 12500 CHF
+Solana: 10000 CHF
+Pepe: 4000 CHF
+Render: 3500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|243,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 15'000 CHF
+Solana: 12'500 CHF
+Ethereum: 10'000 CHF
+Render: 5'000 CHF
+Pepe: 4'500 CHF
+Chainlink: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|244,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 17500 CHF
+Sui: 10000 CHF
+Render: 7500 CHF
+Ethereum: 7500 CHF
+Pepe: 7500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|245,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12,000 CHF
+Bitcoin: 10,000 CHF
+Ethereum: 8,000 CHF
+Near Protocol: 6,000 CHF
+Sui: 5,000 CHF
+Chainlink: 5,000 CHF
+Render: 4,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|246,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 15000 CHF
+Solana: 12500 CHF
+Bitcoin: 7500 CHF
+Chainlink: 5000 CHF
+Render: 4000 CHF
+Sui: 3500 CHF
+Pepe: 2500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|247,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 15,000 CHF
+Solana: 12,000 CHF
+Bitcoin: 8,000 CHF
+Chainlink: 5,000 CHF
+Render: 4,000 CHF
+Sui: 3,000 CHF
+Pepe: 3,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|248,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 15,000 CHF
+Bitcoin (BTC): 10,000 CHF
+Ethereum (ETH): 7,500 CHF
+Render (RENDER): 7,500 CHF
+Sui (SUI): 5,000 CHF
+Pepe (PEPE): 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|249,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 12'500 CHF
+Ethereum: 10'000 CHF
+Bitcoin: 7'500 CHF
+Bittensor: 5'000 CHF
+Sui: 5'000 CHF
+Render: 4'000 CHF
+Chainlink: 3'500 CHF
+Injective: 2'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|250,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 15,000 CHF
+Ethereum: 12,500 CHF
+Solana: 10,000 CHF
+Chainlink: 5,000 CHF
+Render: 4,000 CHF
+Sui: 3,500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|251,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 15'000 CHF
+Solana: 12'500 CHF
+Bitcoin: 10'000 CHF
+Chainlink: 5'000 CHF
+NEAR Protocol: 3'500 CHF
+Render: 2'500 CHF
+Aave: 1'500 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|252,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 50'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 15'000 CHF
+Ethereum: 10'000 CHF
+Bitcoin: 10'000 CHF
+Sui: 5'000 CHF
+Near Protocol: 5'000 CHF
+Chainlink: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|253,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50'000 CHF
+Bitcoin: 30'000 CHF
+Ethereum: 20'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|254,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin: 60,000 CHF
+Tether: 20,000 CHF
+Bitcoin: 15,000 CHF
+Ethereum: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|255,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50,000 CHF
+PAXG: 30,000 CHF
+BTC: 15,000 CHF
+ETH: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|256,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50'000 CHF
+Bitcoin: 35'000 CHF
+Ethereum: 15'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|257,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50'000 CHF
+Ethereum: 30'000 CHF
+USD Coin: 20'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|258,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin (USDC): 50'000 CHF
+Bitcoin (BTC): 35'000 CHF
+PAX Gold (PAXG): 10'000 CHF
+Ethereum (ETH): 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|259,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45,000 CHF
+USD Coin: 30,000 CHF
+Ethereum: 15,000 CHF
+Pax Gold: 10,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|260,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50,000 CHF
+Ethereum: 30,000 CHF
+USD Coin: 15,000 CHF
+Chainlink: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|261,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70,000 CHF
+Ethereum: 25,000 CHF
+USD Coin: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|262,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70,000 CHF
+USD Coin: 20,000 CHF
+Ethereum: 10,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|263,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40'000 CHF
+PAX Gold: 30'000 CHF
+USD Coin: 20'000 CHF
+Ethereum: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|264,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 65'000 CHF
+Ethereum: 25'000 CHF
+USD Coin: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|265,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40,000 CHF
+Ethereum: 30,000 CHF
+Solana: 15,000 CHF
+Chainlink: 10,000 CHF
+Avalanche: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|266,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45'000 CHF
+USD Coin: 30'000 CHF
+Ethereum: 20'000 CHF
+Tether: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|267,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 45,000 CHF
+USD Coin (USDC): 35,000 CHF
+Ethereum (ETH): 20,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|268,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40'000 CHF
+Ethereum: 30'000 CHF
+Solana: 15'000 CHF
+Chainlink: 10'000 CHF
+Avalanche: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|269,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40'000 CHF
+Ethereum: 30'000 CHF
+Solana: 15'000 CHF
+Chainlink: 10'000 CHF
+Avalanche: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|270,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 45'000 CHF
+Ethereum (ETH): 30'000 CHF
+USD Coin (USDC): 15'000 CHF
+Solana (SOL): 6'000 CHF
+Chainlink (LINK): 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|271,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50,000 CHF
+Ethereum: 30,000 CHF
+Solana: 10,000 CHF
+USD Coin: 5,000 CHF
+Aave: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|272,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45'000 CHF
+Ethereum: 30'000 CHF
+Solana: 13'000 CHF
+Chainlink: 7'000 CHF
+Avalanche: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|273,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40'000 CHF
+Ethereum: 30'000 CHF
+Solana: 12'000 CHF
+Chainlink: 8'000 CHF
+NEAR Protocol: 5'000 CHF
+Uniswap: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|274,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 55'000 CHF
+Ethereum: 30'000 CHF
+Solana: 8'000 CHF
+Chainlink: 4'000 CHF
+Cardano: 3'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|275,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45,000 CHF
+Ethereum: 30,000 CHF
+Solana: 10,000 CHF
+Chainlink: 5,000 CHF
+Polygon: 5,000 CHF
+Cardano: 5,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|276,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45'000 CHF
+Ethereum: 30'000 CHF
+Solana: 12'000 CHF
+Chainlink: 8'000 CHF
+Render: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|277,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30'000 CHF
+Ethereum: 20'000 CHF
+Sui: 15'000 CHF
+Bitcoin: 15'000 CHF
+Render: 10'000 CHF
+Pepe: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|278,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35,000 CHF
+Ethereum: 25,000 CHF
+Solana: 20,000 CHF
+NEAR Protocol: 10,000 CHF
+Pepe: 10,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|279,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35'000 CHF
+Ethereum: 25'000 CHF
+Solana: 20'000 CHF
+NEAR Protocol: 10'000 CHF
+Pepe: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|280,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30'000 CHF
+Ethereum: 20'000 CHF
+Sui: 15'000 CHF
+Near Protocol: 15'000 CHF
+Bittensor: 10'000 CHF
+Pepe: 10'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|281,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30000 CHF
+Bitcoin: 20000 CHF
+Ethereum: 15000 CHF
+Sui: 10000 CHF
+Near Protocol: 10000 CHF
+Chainlink: 8000 CHF
+Pepe: 7000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|282,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 35'000 CHF
+Ethereum (ETH): 25'000 CHF
+Solana (SOL): 20'000 CHF
+Chainlink (LINK): 10'000 CHF
+Render (RENDER): 6'000 CHF
+Pepe (PEPE): 4'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|283,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30,000 CHF
+Ethereum: 25,000 CHF
+Solana: 20,000 CHF
+Chainlink: 10,000 CHF
+NEAR Protocol: 8,000 CHF
+Render: 7,000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|284,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 25'000 CHF
+Bitcoin: 20'000 CHF
+Ethereum: 20'000 CHF
+NEAR Protocol: 10'000 CHF
+Render: 10'000 CHF
+Chainlink: 10'000 CHF
+Sui: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|285,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 25'000 CHF
+Solana: 20'000 CHF
+Ethereum: 15'000 CHF
+Bittensor: 10'000 CHF
+Chainlink: 10'000 CHF
+Render: 8'000 CHF
+Sui: 7'000 CHF
+Avalanche: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|286,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30'000 CHF
+Ethereum: 25'000 CHF
+Solana: 20'000 CHF
+Chainlink: 10'000 CHF
+Near Protocol: 8'000 CHF
+Render: 7'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|287,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30'000 CHF
+Ethereum: 25'000 CHF
+Solana: 15'000 CHF
+Chainlink: 10'000 CHF
+Render: 8'000 CHF
+Bittensor: 7'000 CHF
+Sui: 5'000 CHF"
+tokens-general-budget_risk_term_environment|gemini-3.6-flash|20260813_1742|288,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100'000 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 30,000 CHF
+Bitcoin: 20,000 CHF
+Ethereum: 15,000 CHF
+Chainlink: 10,000 CHF
+Near Protocol: 10,000 CHF
+Sui: 10,000 CHF
+Bittensor: 5,000 CHF"

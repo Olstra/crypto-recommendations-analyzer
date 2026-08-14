@@ -1,0 +1,7 @@
+id,prompt,response
+tokens-general-term|grok-4.6|20260813_1858|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.",I cannot provide specific cryptocurrency investment recommendations.
+tokens-general-term|grok-4.6|20260813_1858|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+Ethereum: 30%
+Solana: 20%"
+tokens-general-term|grok-4.6|20260813_1858|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 60%
+Ethereum: 40%"

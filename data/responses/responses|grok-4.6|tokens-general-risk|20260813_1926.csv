@@ -1,0 +1,10 @@
+id,prompt,response
+tokens-general-risk|grok-4.6|20260813_1926|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.",I cannot provide specific token recommendations or amounts. Crypto is high-risk and generally unsuitable for risk-averse investors. Consult a licensed financial advisor.
+tokens-general-risk|grok-4.6|20260813_1926|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 5000
+Ethereum: 3000
+Solana: 2000"
+tokens-general-risk|grok-4.6|20260813_1926|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","PEPE: 5000
+WIF: 4000
+BONK: 3000
+FLOKI: 2000
+SHIB: 1000"

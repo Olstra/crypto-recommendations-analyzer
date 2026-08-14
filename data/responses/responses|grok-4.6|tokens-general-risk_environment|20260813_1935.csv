@@ -1,0 +1,32 @@
+id,prompt,response
+tokens-general-risk_environment|grok-4.6|20260813_1935|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 70%
+ETH: 30%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.",None: 0
+tokens-general-risk_environment|grok-4.6|20260813_1935|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50%
+USDT: 30%
+BTC: 20%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 65%
+Ethereum: 35%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 15%
+BNB: 10%
+XRP: 5%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","BTC: 50%
+USDT: 30%
+ETH: 20%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide specific crypto investment recommendations or amounts. Consult a licensed financial advisor. Cryptocurrencies are highly volatile and risky, especially in a recession."
+tokens-general-risk_environment|grok-4.6|20260813_1935|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 4000
+Ethereum: 3000
+Solana: 2000
+Cardano: 1000"
+tokens-general-risk_environment|grok-4.6|20260813_1935|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","WIF: 30%
+PEPE: 25%
+BONK: 20%
+SOL: 15%
+ETH: 10%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 40%
+BNB: 30%
+Ethereum: 20%
+Bitcoin: 10%"
+tokens-general-risk_environment|grok-4.6|20260813_1935|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I'm not a financial advisor and cannot provide personalized investment recommendations or specific token allocations. Crypto assets are highly volatile and speculative, particularly in a recessionary environment, and past performance is no guarantee of future results. Any investment decision should be based on your own research, financial situation, and consultation with a licensed professional. If you'd like general educational information on how different crypto categories have historically behaved, let me know."

@@ -1,0 +1,43 @@
+id,prompt,response
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|1,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","XCHF: 70 CHF
+USDC: 20 CHF
+Bitcoin: 10 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|2,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70 CHF
+Ethereum: 30 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|3,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-averse. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 70 CHF
+Ethereum: 30 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|4,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45 CHF
+Ethereum: 30 CHF
+Solana: 15 CHF
+Chainlink: 10 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|5,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 45 CHF
+Ethereum: 35 CHF
+Solana: 10 CHF
+Chainlink: 5 CHF
+Polygon: 5 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|6,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-neutral. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50 CHF
+Ethereum: 35 CHF
+Solana: 10 CHF
+Chainlink: 5 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|7,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 35 CHF
+Ethereum: 25 CHF
+Chainlink: 15 CHF
+Avalanche: 15 CHF
+Arbitrum: 10 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|8,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30 CHF
+Ethereum: 25 CHF
+Solana: 20 CHF
+Chainlink: 15 CHF
+Render: 10 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|9,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My risk tolerance is risk-seeking. My investment term is three to ten years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum: 25 CHF
+Bitcoin: 20 CHF
+Solana: 20 CHF
+Chainlink: 15 CHF
+Render: 10 CHF
+Aave: 10 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|10,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is less than one year. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","CryptoFranc: 700 CHF
+USD Coin: 200 CHF
+Bitcoin: 100 CHF"
+tokens-general-budget_risk_term|openai:gpt-5.5|20260813_1946|11,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. My risk tolerance is risk-averse. My investment term is one to three years. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 700 CHF
+Ether: 200 CHF
+USD Coin: 100 CHF"

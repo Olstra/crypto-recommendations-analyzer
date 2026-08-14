@@ -1,0 +1,64 @@
+id,prompt,response
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin:
+Ethereum:
+USD Coin:
+Chainlink:
+Solana:"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin (USDC):
+Bitcoin (BTC):
+Ether (ETH):
+Dai (DAI):"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USD Coin
+Bitcoin
+Ethereum"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 50%
+Ethereum (ETH): 30%
+USD Coin (USDC): 20%"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35%
+Ethereum: 30%
+Solana: 15%
+Chainlink: 10%
+Avalanche: 10%"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin:
+Ethereum:
+USD Coin:
+Chainlink:
+Solana:"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+USD Coin: 20%
+Chainlink: 5%
+Solana: 5%"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 30%
+Ethereum: 25%
+Solana: 15%
+Chainlink: 10%
+Avalanche: 8%
+Polygon: 7%
+Arbitrum: 5%"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 25%
+Ethereum: 20%
+Bitcoin: 15%
+Render: 12%
+Chainlink: 10%
+Sui: 8%
+Arbitrum: 5%
+Avalanche: 5%"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin:
+Ethereum:
+Solana:
+Chainlink:
+Aave:
+Render:
+Celestia:
+Arbitrum:
+Pendle:
+Injective:"
+tokens-general-risk_environment|openai:gpt-5.5|20260813_1956|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35%
+Ethereum: 30%
+Solana: 12%
+Chainlink: 8%
+Aave: 5%
+Render: 5%
+Arbitrum: 3%
+Optimism: 2%"

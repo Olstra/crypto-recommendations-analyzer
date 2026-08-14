@@ -1,0 +1,62 @@
+id,prompt,response
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 30%
+Ethereum (ETH): 25%
+Bitcoin (BTC): 20%
+Near Protocol (NEAR): 15%
+Render (RENDER): 10%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50%
+BTC: 35%
+ETH: 15%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 40%
+Bitcoin: 35%
+Ethereum: 15%
+PAX Gold: 10%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 35%
+Ethereum: 25%
+Solana: 20%
+Chainlink: 10%
+Near Protocol: 10%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 35%
+Ethereum (ETH): 25%
+Solana (SOL): 15%
+Chainlink (LINK): 10%
+Near Protocol (NEAR): 5%
+Render (RENDER): 5%
+Sui (SUI): 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 50%
+Ethereum (ETH): 30%
+Solana (SOL): 10%
+Chainlink (LINK): 5%
+Polygon (POL): 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+Ethereum: 30%
+Solana: 10%
+Chainlink: 5%
+Polygon: 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 35%
+Ethereum (ETH): 25%
+Solana (SOL): 15%
+Chainlink (LINK): 10%
+NEAR Protocol (NEAR): 10%
+Avalanche (AVAX): 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): $4,000
+Ethereum (ETH): $3,000
+Solana (SOL): $1,500
+Chainlink (LINK): $800
+Near Protocol (NEAR): $400
+Render (RENDER): $300"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+Ethereum: 30%
+USD Coin: 10%
+Solana: 5%
+Chainlink: 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 50%
+Ethereum (ETH): 30%
+Solana (SOL): 10%
+Chainlink (LINK): 5%
+Polygon (POL): 5%"
+tokens-general-term_environment|gemini-3.6-flash|20260813_1816|12,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40%
+Ethereum: 30%
+Solana: 15%
+Chainlink: 10%
+NEAR Protocol: 5%"

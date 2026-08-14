@@ -2,14 +2,14 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
+from constants.prompt_constants import SYSTEM_PROMPT
 from dotenv import load_dotenv
 from google import genai
 from langchain.agents import create_agent
 
-from common.data_paths import OUTPUT_PATH_RESPONSES, PROMPT_FILES_PATH
+from common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
 from common.logger import get_logger
-from common.supported_models import SUPPORTED_MODELS, GEMINI_MODEL_NAME
-from constants.prompt_constants import SYSTEM_PROMPT
+from common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 
 logger = get_logger(Path(__file__).name)
 
@@ -29,9 +29,10 @@ def _process_request_with_gemini(
 ) -> None:
     client = genai.Client()
 
-    with open(input_file, "r", encoding="utf-8") as f, open(
-        output_file, "w", encoding="utf-8", newline=""
-    ) as out:
+    with (
+        open(input_file, "r", encoding="utf-8") as f,
+        open(output_file, "w", encoding="utf-8", newline="") as out,
+    ):
         writer = csv.writer(out)
         writer.writerow(["id", "prompt", "response"])
 
@@ -60,9 +61,10 @@ def _process_request(
 ) -> None:
     agent = create_agent(model=model, system_prompt=SYSTEM_PROMPT)
 
-    with open(input_file, "r", encoding="utf-8") as f, open(
-        output_file, "w", encoding="utf-8", newline=""
-    ) as out:
+    with (
+        open(input_file, "r", encoding="utf-8") as f,
+        open(output_file, "w", encoding="utf-8", newline="") as out,
+    ):
         writer = csv.writer(out)
         writer.writerow(["id", "prompt", "response"])
 
@@ -82,6 +84,10 @@ def _process_request(
             row_id = _generate_row_id(input_stem, model, timestamp, i)
             writer.writerow([row_id, prompt, response_text])
 
+            # todo: remove after test-phase
+            if i > 10:
+                break
+
     logger.info(f"Saved CSV responses to: {output_file}")
 
 
@@ -89,18 +95,24 @@ if __name__ == "__main__":
     env_path = Path(__file__).resolve().parent.parent.parent / ".env"
     load_dotenv(dotenv_path=env_path)
 
+    OUTPUT_PATH_RESPONSES.mkdir(parents=True, exist_ok=True)
+
     input_files = [
-        PROMPT_FILES_PATH / "chosen_tokens-budget_term_risk_environment.txt",
-        PROMPT_FILES_PATH / "general-budget_term_risk_environment.txt",
+        f for f in (OUTPUT_PATH_PROMPTS / "token_recommendations" / "general").iterdir()
     ]
 
     for _model in SUPPORTED_MODELS:
         for file in input_files:
             _input_stem = file.stem
             _timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-            _output_file = OUTPUT_PATH_RESPONSES / f"responses{_SEPARATOR}{_model}{_SEPARATOR}{_timestamp}.csv"
+            _output_file = (
+                OUTPUT_PATH_RESPONSES
+                / f"responses{_SEPARATOR}{_model}{_SEPARATOR}{_input_stem}{_SEPARATOR}{_timestamp}.csv"
+            )
 
             if _model == GEMINI_MODEL_NAME:
-                _process_request_with_gemini(file, _output_file, _model, _timestamp, _input_stem)
+                _process_request_with_gemini(
+                    file, _output_file, _model, _timestamp, _input_stem
+                )
             else:
                 _process_request(file, _output_file, _model, _timestamp, _input_stem)

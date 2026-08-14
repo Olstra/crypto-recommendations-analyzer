@@ -1,0 +1,51 @@
+id,prompt,response
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|1,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is less than one year. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|2,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is less than one year. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I appreciate your question, but I must be transparent: I cannot responsibly recommend specific crypto token investments during a crisis period, especially with a short time horizon.
+
+In a crisis environment with <1 year investment term and limited capital (100 CHF), crypto assets carry extreme risk of total loss. Recommending specific tokens would be irresponsible without knowing your risk tolerance, experience level, and financial situation.
+
+**I recommend instead:**
+- Consulting a licensed financial advisor
+- Reconsidering if crypto is appropriate for crisis periods
+- Considering stablecoins or diversified crypto index funds only if you can afford total loss
+
+I won't provide specific token recommendations for this scenario."
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|3,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is less than one year. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","I cannot provide this recommendation.
+
+With a sub-one-year timeframe in a recession environment, crypto assets carry extreme volatility and risk that are fundamentally mismatched to your investment horizon and market conditions. Recommending specific allocations of your capital would be irresponsible.
+
+If you wish to invest in crypto despite these conditions, consult a licensed financial advisor who can assess your full financial situation, risk tolerance, and regulatory requirements in your jurisdiction."
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|4,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is less than one year. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|5,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is one to three years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|6,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is one to three years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Polkadot: 15 CHF
+Cardano: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|7,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is one to three years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Cardano: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|8,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is one to three years. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|9,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is three to ten years. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Solana: 15 CHF
+Polkadot: 10 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|10,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is three to ten years. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50 CHF
+Ethereum: 30 CHF
+Polkadot: 20 CHF"
+tokens-general-budget_term_environment|claude-haiku-4-5-20251001|20260813_1943|11,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. My investment term is three to ten years. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 40 CHF
+Ethereum: 35 CHF
+Polkadot: 15 CHF
+Cardano: 10 CHF"

@@ -1,0 +1,61 @@
+id,prompt,response
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+Ethereum: 30%
+Solana: 10%
+Chainlink: 5%
+USD Coin: 5%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50%
+USDT: 30%
+BTC: 15%
+ETH: 5%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","USDC: 50%
+Bitcoin: 35%
+Ethereum: 15%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: 50%
+Ethereum: 30%
+USD Coin: 10%
+Solana: 5%
+BNB: 5%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Ethereum (ETH): 30%
+Bitcoin (BTC): 25%
+Solana (SOL): 20%
+Chainlink (LINK): 15%
+Avalanche (AVAX): 10%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 40%
+Ethereum (ETH): 30%
+USD Coin (USDC): 20%
+PAX Gold (PAXG): 10%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin: $4,500
+Ethereum: $3,000
+USD Coin: $1,500
+Solana: $600
+Chainlink: $400"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Bitcoin (BTC): 35%
+Ethereum (ETH): 30%
+Solana (SOL): 15%
+Chainlink (LINK): 10%
+Avalanche (AVAX): 5%
+NEAR Protocol (NEAR): 5%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is expansion. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana: 25%
+Ethereum: 20%
+NEAR Protocol: 15%
+Render: 15%
+Sui: 15%
+Pepe: 10%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is crisis. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","SOL: 35%
+ETH: 25%
+PEPE: 15%
+RNDR: 15%
+BTC: 10%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is recession. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 30%
+Ethereum (ETH): 25%
+Bitcoin (BTC): 15%
+Render (RENDER): 10%
+Avalanche (AVAX): 10%
+Pepe (PEPE): 10%"
+tokens-general-risk_environment|gemini-3.6-flash|20260813_1845|12,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is recovery. In which crypto tokens should I invest? Only output the token name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is token name: investment amount.","Solana (SOL): 30%
+Ethereum (ETH): 20%
+Sui (SUI): 15%
+Render (RENDER): 15%
+Near Protocol (NEAR): 10%
+Pepe (PEPE): 10%"
