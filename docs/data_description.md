@@ -10,7 +10,7 @@ TBD
 
 ## Dataset
 
-### In which crypto tokens should I invest?
+### 1. In which crypto tokens should I invest?
 | scenario                        | model  | total prompts | total datapoints in dataset |
 |---------------------------------|--------|--------------:|----------------------------:|
 | budget                          | Gemini |             8 |                           8 |
