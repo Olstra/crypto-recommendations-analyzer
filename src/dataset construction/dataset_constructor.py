@@ -49,6 +49,10 @@ def _process_request_with_gemini(
             row_id = _generate_row_id(input_stem, model, timestamp, i)
             writer.writerow([row_id, prompt, response_text])
 
+            # todo: remove after test-phase
+            if i >= 11:
+                break
+
     logger.info(f"Saved CSV responses to: {output_file}")
 
 
@@ -85,7 +89,7 @@ def _process_request(
             writer.writerow([row_id, prompt, response_text])
 
             # todo: remove after test-phase
-            if i > 10:
+            if i >= 11:
                 break
 
     logger.info(f"Saved CSV responses to: {output_file}")
@@ -98,7 +102,10 @@ if __name__ == "__main__":
     OUTPUT_PATH_RESPONSES.mkdir(parents=True, exist_ok=True)
 
     input_files = [
-        f for f in (OUTPUT_PATH_PROMPTS / "token_recommendations" / "general").iterdir()
+        f
+        for f in (
+            OUTPUT_PATH_PROMPTS / "exchanges_recommendations" / "general"
+        ).iterdir()
     ]
 
     for _model in SUPPORTED_MODELS:

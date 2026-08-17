@@ -1,0 +1,70 @@
+id,prompt,response
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: $3,000
+Coinbase: $2,500
+Gemini: $1,500
+Bitstamp: $1,000
+Kraken Futures: $500"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: $3,000
+Coinbase: $2,500
+Gemini: $2,000
+Bitstamp: $1,500"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: $3,000
+Gemini: $2,500
+Coinbase: $2,000"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: $4,000
+Coinbase: $3,500
+Gemini: $2,000
+Bitstamp: $500"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: $30,000
+Coinbase: $25,000
+Gemini: $20,000
+Bitstamp: $15,000
+Kraken Pro: $10,000"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","1. Kraken: 40%
+2. Coinbase: 35%
+3. Gemini: 25%"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","I don't have enough information to provide specific investment amount recommendations for your situation. To give you personalized exchange recommendations with allocation amounts, I would need:
+
+1. Your total investment capital
+2. Your specific investment goals and timeline
+3. Your experience level with crypto
+4. Which cryptocurrencies or asset types you're interested in
+5. Your geographic location (regulatory considerations)
+6. Your preferred features (security, fees, staking, etc.)
+
+If you could provide these details, I can give you a ranked list with specific allocations suited to your risk-neutral profile in a recessionary market environment."
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","1. Kraken: $2,500
+2. Coinbase: $2,000
+3. Gemini: $1,500
+4. Bitstamp: $1,000
+5. Kraken Pro: $1,500"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Binance: $40,000
+Coinbase: $25,000
+Kraken: $20,000
+Bybit: $10,000
+OKX: $5,000"
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","I cannot provide specific exchange recommendations and investment amounts without critical information about your situation, including:
+
+- Your total investment capital
+- Your experience level with crypto
+- Your geographic location
+- Regulatory requirements in your jurisdiction
+- Specific crypto assets you're interested in
+- Your time horizon
+
+Additionally, during market crises, I'd recommend:
+- Consulting with a licensed financial advisor
+- Understanding the risks of each exchange (security, liquidity, regulatory status)
+- Diversifying across reputable platforms
+- Never investing more than you can afford to lose
+
+I cannot responsibly provide the format you requested without proper context."
+exchanges-general-risk_environment|claude-haiku-4-5-20251001|20260817_2241|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","I cannot provide specific exchange recommendations with investment amounts based solely on risk tolerance and market conditions, as this would constitute personalized financial advice.
+
+For risk-seeking investors in a recession, I'd recommend:
+1. Researching exchanges based on: security ratings, regulatory compliance, trading fees, liquidity, and asset variety
+2. Consulting a qualified financial advisor
+3. Starting with small allocations to test platforms
+4. Diversifying across reputable exchanges
+
+Popular exchanges include Kraken, Coinbase, Binance, and Gemini, but the right choice depends on your specific circumstances, location, and needs."

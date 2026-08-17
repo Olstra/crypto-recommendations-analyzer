@@ -2,9 +2,9 @@ import itertools
 from pathlib import Path
 
 from constants.prompt_constants import (
-    OUTPUT_FORMAT_PROMPT,
+    BASE_PROMPT_EXCHANGES,
+    BASE_PROMPT_TOKENS,
     SYSTEM_PROMPT,
-    TOKENS_BASE_PROMPT,
 )
 from constants.variable_values import VARIABLE_NAMES, VARIABLE_VALUES
 
@@ -29,7 +29,6 @@ def generate_prompts_one_file(
     variables_values: dict[str, list] = VARIABLE_VALUES,
     variables_to_use: list[str] = VARIABLE_NAMES,
     system_prompt: str = SYSTEM_PROMPT,
-    output_format_prompt: str = OUTPUT_FORMAT_PROMPT,
     output_dir: Path = OUTPUT_PATH_PROMPTS,
 ) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -48,7 +47,7 @@ def generate_prompts_one_file(
                 prompt_body = " ".join(
                     s.strip() for s in scenario if s and str(s).strip()
                 )
-                full_prompt = f"{system_prompt} {prompt_body} {base_prompt} {output_format_prompt}"
+                full_prompt = f"{system_prompt} {prompt_body} {base_prompt}"
                 full_prompt = " ".join(full_prompt.split())
                 f.write(full_prompt + "\n")
 
@@ -58,8 +57,10 @@ def generate_prompts_one_file(
 
 
 if __name__ == "__main__":
+    prefix = "exchanges"  # set prefix to "tokens" or "exchanges"
+
     generate_prompts_one_file(
-        base_filename="tokens-general",
-        base_prompt=TOKENS_BASE_PROMPT,
-        output_dir=OUTPUT_PATH_PROMPTS / "token_recommendations" / "general",
+        base_filename=f"{prefix}-general",
+        base_prompt=BASE_PROMPT_TOKENS if prefix == "tokens" else BASE_PROMPT_EXCHANGES,
+        output_dir=OUTPUT_PATH_PROMPTS / f"{prefix}_recommendations" / "general",
     )

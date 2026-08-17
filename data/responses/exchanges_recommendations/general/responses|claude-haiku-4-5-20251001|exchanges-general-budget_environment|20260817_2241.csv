@@ -1,0 +1,40 @@
+id,prompt,response
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|1,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 40 CHF
+Coinbase: 35 CHF
+Bitstamp: 25 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|2,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 40 CHF
+Coinbase: 30 CHF
+Bitstamp: 20 CHF
+Kraken Pro: 10 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|3,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 40 CHF
+Coinbase: 35 CHF
+Bitstamp: 25 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|4,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 100 CHF to invest. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 40 CHF
+Coinbase: 30 CHF
+Bitstamp: 20 CHF
+Kraken: 10 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|5,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 400 CHF
+Coinbase: 300 CHF
+Bitstamp: 300 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|6,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 400 CHF
+Coinbase: 300 CHF
+Bitstamp: 200 CHF
+Gemini: 100 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|7,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 400 CHF
+Coinbase: 300 CHF
+Bitstamp: 300 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|8,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 1'000 CHF to invest. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 400 CHF
+Coinbase: 300 CHF
+Bitstamp: 300 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|9,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 4,000 CHF
+Coinbase: 3,000 CHF
+Bitstamp: 2,000 CHF
+Gemini: 1,000 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|10,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 4000 CHF
+Coinbase: 3000 CHF
+Bitstamp: 2000 CHF
+Gemini: 1000 CHF"
+exchanges-general-budget_environment|claude-haiku-4-5-20251001|20260817_2241|11,"You are an expert recommender system that helps users with investment planning in crypto assets. I have 10'000 CHF to invest. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Kraken: 4000
+Coinbase: 3000
+Gemini: 2000
+Bitstamp: 1000"

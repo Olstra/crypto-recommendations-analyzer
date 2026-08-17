@@ -1,0 +1,47 @@
+id,prompt,response
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Binance: 40%
+Bybit: 30%
+OKX: 20%
+Coinbase: 10%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: N/A
+Kraken: N/A
+Gemini: N/A"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: N/A
+Kraken: N/A
+Binance: N/A
+Bitstamp: N/A"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|4,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is less than one year. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Binance: N/A
+Coinbase: N/A
+Bybit: N/A
+OKX: N/A
+Kraken: N/A"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|5,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Binance: 40%
+Coinbase: 30%
+Bybit: 15%
+Kraken: 10%
+OKX: 5%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|6,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 40%
+Kraken: 30%
+Binance: 20%
+OKX: 10%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|7,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 40%
+Kraken: 30%
+Gemini: 15%
+Bitstamp: 15%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|8,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is one to three years. The market environment is recovery. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 40%
+Kraken: 30%
+Binance: 20%
+OKX: 10%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|9,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is expansion. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 40% of total investment
+Kraken: 30% of total investment
+Binance: 20% of total investment
+Gemini: 10% of total investment"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|10,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is crisis. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 40%
+Kraken: 30%
+Binance: 20%
+Gemini: 10%"
+exchanges-general-term_environment|gemini-3.6-flash|20260817_2243|11,"You are an expert recommender system that helps users with investment planning in crypto assets. My investment term is three to ten years. The market environment is recession. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: N/A
+Kraken: N/A
+Gemini: N/A
+Fidelity Crypto: N/A
+Bitstamp: N/A"

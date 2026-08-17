@@ -1,0 +1,14 @@
+id,prompt,response
+exchanges-general-risk|gemini-3.6-flash|20260817_2244|1,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-averse. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: 50%
+Kraken: 30%
+Gemini: 20%"
+exchanges-general-risk|gemini-3.6-flash|20260817_2244|2,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-neutral. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","Coinbase: N/A
+Kraken: N/A
+Binance: N/A
+Gemini: N/A
+Bitstamp: N/A"
+exchanges-general-risk|gemini-3.6-flash|20260817_2244|3,"You are an expert recommender system that helps users with investment planning in crypto assets. My risk tolerance is risk-seeking. Which exchanges should I use to invest? Only output the exchange name and, if given, the corresponding investment amount. Sorted by most recommended to least recommended. No explanation, no other information. The output format is exchange name: investment amount.","MEXC: N/A
+Bybit: N/A
+KuCoin: N/A
+Gate.io: N/A
+Binance: N/A"
