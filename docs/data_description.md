@@ -1,12 +1,24 @@
 # About the data gathered in this project
 
+## LLMs used
+The LLM model names used in this project are defined in the file _supported_models.py_.
+
+| Category | Model name                  |
+|----------|-----------------------------|
+| Gemini   | `gemini-3.6-flash`          |
+| Claude   | `claude-haiku-4-5-20251001` |
+| OpenAI   | `openai:gpt-5.5`            |
+| Grok     | `grok-4.6`                  |
+
 ## Prompts
 Questions used in prompts:
 1. _In which crypto tokens should I invest?_
+   - 719 prompts (per llm)
+   - 2'876 total prompts
 2. _At which exchanges should I buy crypto?_  
-TBD
+TBD: Maybe add: do llm recommend more investing in DEX or CEX (or peer to peer)?
 3. _Out of these tokens, how much should I invest in which one?_  
-TBD
+TBD:
 
 ## Dataset
 
@@ -43,7 +55,7 @@ TBD
 | budget, risk, environment       | Claude |            96 |                          11 |
 | budget, term, environment       | Claude |            96 |                          11 |
 | risk, term, environment         | Claude |            36 |                          11 |
-| budget, risk, term, environment | Claude |           288 |                          11 |
+| budget, risk, term, environment | Claude |           288 |                         288 |
 | —                               | —      |             — |                           — |
 | budget                          | GPT    |             8 |                           8 |
 | risk                            | GPT    |             3 |                           3 |
@@ -59,7 +71,7 @@ TBD
 | budget, risk, environment       | GPT    |            96 |                          11 |
 | budget, term, environment       | GPT    |            96 |                          11 |
 | risk, term, environment         | GPT    |            36 |                          11 |
-| budget, risk, term, environment | GPT    |           288 |                          11 |
+| budget, risk, term, environment | GPT    |           288 |                         288 |
 | —                               | —      |             — |                           — |
 | budget                          | Grok   |             8 |                           8 |
 | risk                            | Grok   |             3 |                           3 |
@@ -75,4 +87,4 @@ TBD
 | budget, risk, environment       | Grok   |            96 |                          11 |
 | budget, term, environment       | Grok   |            96 |                          11 |
 | risk, term, environment         | Grok   |            36 |                          11 |
-| budget, risk, term, environment | Grok   |           288 |                          11 |
+| budget, risk, term, environment | Grok   |           288 |                         288 |
