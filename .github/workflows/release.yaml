@@ -47,5 +47,5 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          files: "${{ env.REPO }}/data/responses/**/*.csv
+          files: "${{ env.REPO }}/data/responses/**/*.csv"
           tag_name: ${{ github.event.inputs.release_tag }}
