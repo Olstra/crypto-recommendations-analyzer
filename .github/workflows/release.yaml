@@ -22,9 +22,13 @@ jobs:
       XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
       GOOGLE_GENAI_USE_VERTEXAI: "True"
       GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT }}
-      GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
     steps:
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -53,4 +57,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: "${{ env.REPO }}/data/responses/**/*.db"
-          tag_name: ${{ github.event.inputs.release_tag }}
+          tag_name: ${{ github.event.inputs.release_tag }}"
