@@ -90,7 +90,7 @@ def _process_request_with_gemini(
             )
 
             # todo: remove after test-phase
-            if i >= 11:
+            if i >= 1:
                 break
 
 
