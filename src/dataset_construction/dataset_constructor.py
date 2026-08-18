@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 from google import genai
 from langchain.agents import create_agent
 
-from common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
-from common.logger import get_logger
-from common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
+from src.common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
+from src.common.logger import get_logger
+from src.common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 
 logger = get_logger(Path(__file__).name)
 
