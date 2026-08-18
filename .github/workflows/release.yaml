@@ -4,10 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: 'Add release tag (format: v x.x.x)'
+        description: 'Add release tag (format: vX.X.X)'
         required: true
-env:
-    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
 permissions:
   contents: write
@@ -19,6 +17,7 @@ jobs:
 
     env:
       REPO: ${{ github.repository }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -48,5 +47,5 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          files: "${{ env.REPO }}/data/*"
+          files: "${{ env.REPO }}/data/responses/**/*.csv
           tag_name: ${{ github.event.inputs.release_tag }}
