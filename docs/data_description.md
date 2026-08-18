@@ -19,11 +19,6 @@ Overview of the questions used in the prompts:
    - 719 prompts (per llm)
    - 2'876 total prompts  
 
-TBD - Bonus questions?:  
-- Tokens: _Out of these tokens, how much should I invest in which one?_  
-TBD: Maybe more interesting - do meme coins/utility tokens/etc. get recommended more under certain scenarios?
-- Exchanges: Maybe add: do llm recommend more investing in DEX or CEX (or peer to peer)?
-
 ## Dataset
 
 ### 1. In which crypto tokens should I invest?
