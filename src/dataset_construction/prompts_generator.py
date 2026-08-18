@@ -14,11 +14,10 @@ from common.logger import get_logger
 logger = get_logger(Path(__file__).name)
 
 
-def _generate_all_combinations(data: list[str]) -> list[tuple]:
+def _generate_all_combinations(data: list) -> list:
     result = []
     for r in range(1, len(data) + 1):
-        for c in itertools.combinations(data, r):
-            result.append(c)
+        result.extend(list(itertools.combinations(data, r)))
 
     return result
 

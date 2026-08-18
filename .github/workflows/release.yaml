@@ -6,6 +6,8 @@ on:
       release_tag:
         description: 'Add release tag (format: v x.x.x)'
         required: true
+env:
+    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
 permissions:
   contents: write
@@ -16,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      REPO: ${{ github.repository }
+      REPO: ${{ github.repository }}
 
     steps:
       - name: Checkout repository
@@ -41,7 +43,7 @@ jobs:
 
       - name: Build release files
         working-directory: "${{ env.REPO }}"
-        run: uv run -m src.__main__
+        run: uv run -m src.dataset_construction.dataset_constructor
 
       - name: Publish release
         uses: softprops/action-gh-release@v2

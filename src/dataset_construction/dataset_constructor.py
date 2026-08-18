@@ -1,6 +1,7 @@
 import csv
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from constants.prompt_constants import SYSTEM_PROMPT
 from dotenv import load_dotenv
@@ -89,7 +90,7 @@ def _process_request(
             writer.writerow([row_id, prompt, response_text])
 
             # todo: remove after test-phase
-            if i >= 11:
+            if i >= 1:
                 break
 
     logger.info(f"Saved CSV responses to: {output_file}")
@@ -101,17 +102,14 @@ if __name__ == "__main__":
 
     OUTPUT_PATH_RESPONSES.mkdir(parents=True, exist_ok=True)
 
-    input_files = [
-        f
-        for f in (
-            OUTPUT_PATH_PROMPTS / "exchanges_recommendations" / "general"
-        ).iterdir()
-    ]
+    input_files = [f for f in (OUTPUT_PATH_PROMPTS / "delete_me").iterdir()]
 
     for _model in SUPPORTED_MODELS:
         for file in input_files:
             _input_stem = file.stem
-            _timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+            _timestamp = datetime.now(tz=ZoneInfo("Europe/Zurich")).strftime(
+                "%Y%m%d_%H%M"
+            )
             _output_file = (
                 OUTPUT_PATH_RESPONSES
                 / f"responses{_SEPARATOR}{_model}{_SEPARATOR}{_input_stem}{_SEPARATOR}{_timestamp}.csv"
