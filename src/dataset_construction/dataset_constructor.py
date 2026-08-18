@@ -3,12 +3,12 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from constants.prompt_constants import SYSTEM_PROMPT
+from .constants.prompt_constants import SYSTEM_PROMPT
 from dotenv import load_dotenv
 from google import genai
 from langchain.agents import create_agent
 
-from common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
+from .common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
 from common.logger import get_logger
 from common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 
