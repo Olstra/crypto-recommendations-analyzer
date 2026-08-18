@@ -1,0 +1,50 @@
+name: Release workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Add release tag (format: v x.x.x)'
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    env:
+      REPO: ${{ github.repository }
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPO }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ env.REPO }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: "${{ env.REPO }}/pyproject.toml"
+
+      - name: Install dependencies
+        run: cd "${{ env.REPO }}"; uv sync
+
+      - name: Build release files
+        working-directory: "${{ env.REPO }}"
+        run: uv run -m src.__main__
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "${{ env.REPO }}/data/*"
+          tag_name: ${{ github.event.inputs.release_tag }}
