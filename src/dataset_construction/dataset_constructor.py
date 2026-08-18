@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from google import genai
 from langchain.agents import create_agent
 
-from .common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
+from common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
 from common.logger import get_logger
 from common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 
