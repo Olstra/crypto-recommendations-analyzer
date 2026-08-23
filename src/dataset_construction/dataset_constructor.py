@@ -27,8 +27,10 @@ def _ensure_db_schema(conn: sqlite3.Connection) -> None:
         CREATE TABLE IF NOT EXISTS responses (
             id TEXT PRIMARY KEY,
             scenario TEXT NOT NULL,
+            variables TEXT NOT NULL,
             model TEXT NOT NULL,
-            created_at TEXT NOT NULL,
+            model_version TEXT NOT NULL,
+            response_timestamp TEXT NOT NULL,
             prompt TEXT NOT NULL,
             response TEXT NOT NULL
         )
@@ -42,26 +44,37 @@ def _insert_response(
     *,
     row_id: str,
     scenario: str,
+    variables: str,
     model: str,
-    created_at: str,
+    model_version: str,
+    response_timestamp: str,
     prompt: str,
     response_text: str,
 ) -> None:
     conn.execute(
         """
         INSERT OR REPLACE INTO responses
-        (id, scenario, model, created_at, prompt, response)
-        VALUES (?, ?, ?, ?, ?, ?)
+        (id, scenario, variables, model, model_version, response_timestamp, prompt, response)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """,
-        (row_id, scenario, model, created_at, prompt, response_text),
+        (
+            row_id,
+            scenario,
+            variables,
+            model,
+            model_version,
+            response_timestamp,
+            prompt,
+            response_text,
+        ),
     )
 
 
 def _process_request_with_gemini(
     conn: sqlite3.Connection,
     input_file: Path,
-    model: str,
-    created_at: str,
+    model_version: str,
+    response_timestamp: str,
     scenario: str,
 ) -> None:
     client = genai.Client()
@@ -73,18 +86,25 @@ def _process_request_with_gemini(
                 continue
 
             logger.info(f"Sent prompt: {prompt}...")
-            response = client.models.generate_content(model=model, contents=prompt)
+            response = client.models.generate_content(
+                model=model_version, contents=prompt
+            )
             response_text = (response.text or "").strip()
             logger.info(f"Received response: {response_text}...")
 
-            row_id = _generate_row_id(scenario, model, created_at, i)
+            row_id = _generate_row_id(scenario, model_version, response_timestamp, i)
+            model = model_version.split("-")[0] if model_version else None
+            scenario = scenario.split("-")[0] if scenario else None
+            variables = scenario.split("-")[2] if len(scenario.split("-")) > 2 else None
 
             _insert_response(
                 conn,
                 row_id=row_id,
                 scenario=scenario,
+                variables=variables,
                 model=model,
-                created_at=created_at,
+                model_version=model_version,
+                response_timestamp=response_timestamp,
                 prompt=prompt,
                 response_text=response_text,
             )
@@ -97,11 +117,11 @@ def _process_request_with_gemini(
 def _process_request(
     conn: sqlite3.Connection,
     input_file: Path,
-    model: str,
-    created_at: str,
+    model_version: str,
+    response_timestamp: str,
     scenario: str,
 ) -> None:
-    agent = create_agent(model=model, system_prompt=SYSTEM_PROMPT)
+    agent = create_agent(model=model_version, system_prompt=SYSTEM_PROMPT)
 
     with open(input_file, "r", encoding="utf-8") as f:
         for i, line in enumerate(f, start=1):
@@ -117,14 +137,23 @@ def _process_request(
             ).strip()
             logger.info(f"Received response: {response_text}...")
 
-            row_id = _generate_row_id(scenario, model, created_at, i)
+            row_id = _generate_row_id(scenario, model_version, response_timestamp, i)
+            model = model_version.split("-")[0] if model_version else None
+            scenario, _, variables = (
+                scenario.split("-") if len(scenario.split("-")) == 3 else None
+            )
+
+            if not scenario:
+                logger.warning(f"Problem when parsing scenario={scenario}")
 
             _insert_response(
                 conn,
                 row_id=row_id,
                 scenario=scenario,
+                variables=variables,
                 model=model,
-                created_at=created_at,
+                model_version=model_version,
+                response_timestamp=response_timestamp,
                 prompt=prompt,
                 response_text=response_text,
             )
@@ -141,7 +170,7 @@ if __name__ == "__main__":
 
     load_dotenv(dotenv_path=env_path)
 
-    input_files = [f for f in (OUTPUT_PATH_PROMPTS / "delete_me").iterdir()]
+    input_files = list(OUTPUT_PATH_PROMPTS.rglob("*.txt"))
 
     with sqlite3.connect(db_path) as conn:
         _ensure_db_schema(conn)
