@@ -2,7 +2,7 @@ import csv
 import sqlite3
 from pathlib import Path
 
-from common.data_paths import OUTPUT_PATH_RESPONSES
+from constants.data_paths import OUTPUT_PATH_RESPONSES
 
 
 def parse_id(identifier: str) -> dict:
