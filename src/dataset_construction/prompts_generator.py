@@ -8,7 +8,7 @@ from constants.prompt_constants import (
 )
 from constants.variable_values import VARIABLE_NAMES, VARIABLE_VALUES
 
-from src.common.data_paths import OUTPUT_PATH_PROMPTS
+from constants.data_paths import OUTPUT_PATH_PROMPTS
 from src.common.logger import get_logger
 
 logger = get_logger(Path(__file__).name)

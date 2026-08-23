@@ -63,8 +63,6 @@ VARIABLE_VALUES = {
     ],
 }
 
-TOKENS_LIST = ["Bitcoin", "Ethereum", "Dogecoin", "Solana", "Diem", "SpaceX"]
-
 
 if __name__ == "__main__":
     """ 

@@ -8,9 +8,9 @@ from google import genai
 from langchain.agents import create_agent
 
 from model.response import RESPONSE_COLUMN_DEFINITIONS, RESPONSE_COLUMNS, Response
-from src.common.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
 from src.common.logger import get_logger
-from src.common.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
+from src.constants.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
+from src.constants.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 from src.dataset_construction.constants.prompt_constants import SYSTEM_PROMPT
 
 logger = get_logger(Path(__file__).name)
@@ -173,9 +173,6 @@ def _process_request(
             )
 
             _insert_response(conn, response_row)
-
-            # TODO: Remove after test phase.
-            break
 
 
 if __name__ == "__main__":
