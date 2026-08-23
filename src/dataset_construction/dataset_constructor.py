@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 from google import genai
 from langchain.agents import create_agent
 
-from model.response import RESPONSE_COLUMN_DEFINITIONS, RESPONSE_COLUMNS, Response
 from src.common.logger import get_logger
 from src.constants.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
 from src.constants.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 from src.dataset_construction.constants.prompt_constants import SYSTEM_PROMPT
+from src.model.response import RESPONSE_COLUMN_DEFINITIONS, RESPONSE_COLUMNS, Response
 
 logger = get_logger(Path(__file__).name)
 
