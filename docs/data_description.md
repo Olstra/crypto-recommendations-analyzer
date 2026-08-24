@@ -21,7 +21,7 @@ Overview of the questions used in the prompts:
 
 ## Dataset
 
-## Response Counts by Model
+### Response Counts by Model
 
 | model      | response_count | complete? |                        |
 |------------|---------------:|:---------:|:----------------------:|
