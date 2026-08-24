@@ -31,8 +31,6 @@ Overview of the questions used in the prompts:
 | grok       |           1234 |     ✓     | – (insufficient funds) |
 | openai:gpt |           1438 |     ✓     |           ✓            |
 
-You’re right—the tables were flipped. The correct assignment is:
-
 - **Crypto tokens:** Grok uses the **second** result.
 - **Exchanges:** Grok uses the **first** result.
 
