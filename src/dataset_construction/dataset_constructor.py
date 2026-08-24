@@ -1,4 +1,9 @@
+from __future__ import annotations
+
 import sqlite3
+import threading
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -16,6 +21,23 @@ from src.model.response import RESPONSE_COLUMN_DEFINITIONS, RESPONSE_COLUMNS, Re
 logger = get_logger(Path(__file__).name)
 
 _SEPARATOR = "|"
+_TIME_ZONE = ZoneInfo("Europe/Zurich")
+_MAX_WORKERS = 8
+_TEST_RUN = False
+
+_thread_state = threading.local()
+_runtime_init_lock = threading.Lock()
+
+
+# TODO: move into models/prompt_job.py
+@dataclass(frozen=True, slots=True)
+class PromptJob:
+    input_file: Path
+    scenario: str
+    model_version: str
+    prompt: str
+    index: int
+    response_timestamp: str
 
 
 def _generate_row_id(
@@ -25,6 +47,13 @@ def _generate_row_id(
     index: int,
 ) -> str:
     return f"{scenario}{_SEPARATOR}{model}{_SEPARATOR}{created_at}{_SEPARATOR}{index}"
+
+
+def _configure_database(conn: sqlite3.Connection) -> None:
+    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA synchronous=NORMAL")
+    conn.execute("PRAGMA temp_store=MEMORY")
+    conn.execute("PRAGMA cache_size=-64000")
 
 
 def _ensure_db_schema(conn: sqlite3.Connection) -> None:
@@ -108,75 +137,246 @@ def _build_response_row(
     )
 
 
-def _process_request(
-    conn: sqlite3.Connection,
-    input_file: Path,
-    model_version: str,
-    response_timestamp: str,
-    scenario: str,
-) -> None:
-    using_gemini = model_version == GEMINI_MODEL_NAME
+def _get_thread_runtime(model_version: str):
+    runtimes = getattr(_thread_state, "runtimes", None)
 
-    if using_gemini:
-        client = genai.Client()
-        agent = None
-    else:
-        client = None
-        agent = create_agent(
-            model=model_version,
-            system_prompt=SYSTEM_PROMPT,
-        )
+    if runtimes is None:
+        runtimes = {}
+        _thread_state.runtimes = runtimes
 
-    with input_file.open("r", encoding="utf-8") as file:
-        for index, line in enumerate(file, start=1):
-            prompt = line.strip()
+    if model_version in runtimes:
+        return runtimes[model_version]
 
-            if not prompt:
-                continue
+    with _runtime_init_lock:
+        if model_version in runtimes:
+            return runtimes[model_version]
 
-            logger.info(f"Sent prompt: {prompt}...")
-
-            if using_gemini:
-                response = client.models.generate_content(
-                    model=model_version,
-                    contents=prompt,
-                )
-                response_text = (response.text or "").strip()
-            else:
-                result = agent.invoke(
-                    {
-                        "messages": [
-                            {
-                                "role": "user",
-                                "content": prompt,
-                            }
-                        ]
-                    }
-                )
-
-                response_blocks = result["messages"][-1].content_blocks
-                response_text = "".join(
-                    block.get("text", "")
-                    for block in response_blocks
-                    if block.get("type") == "text"
-                ).strip()
-
-            logger.info("Received response: %s...", response_text)
-
-            response_row = _build_response_row(
-                scenario=scenario,
-                model_version=model_version,
-                response_timestamp=response_timestamp,
-                prompt=prompt,
-                response_text=response_text,
-                index=index,
+        if model_version == GEMINI_MODEL_NAME:
+            runtime = genai.Client()
+        else:
+            runtime = create_agent(
+                model=model_version,
+                system_prompt=SYSTEM_PROMPT,
             )
 
+        runtimes[model_version] = runtime
+        return runtime
+
+
+def _extract_agent_response(result: dict) -> str:
+    messages = result.get("messages", [])
+
+    if not messages:
+        return ""
+
+    final_message = messages[-1]
+    response_blocks = getattr(final_message, "content_blocks", None)
+
+    if response_blocks is not None:
+        return "".join(
+            block.get("text", "")
+            for block in response_blocks
+            if block.get("type") == "text"
+        ).strip()
+
+    content = getattr(final_message, "content", "")
+
+    if isinstance(content, str):
+        return content.strip()
+
+    if isinstance(content, list):
+        return "".join(
+            block.get("text", "")
+            for block in content
+            if isinstance(block, dict) and block.get("type") == "text"
+        ).strip()
+
+    return str(content).strip()
+
+
+def _invoke_model(
+    model_version: str,
+    prompt: str,
+) -> str:
+    runtime = _get_thread_runtime(model_version)
+
+    if model_version == GEMINI_MODEL_NAME:
+        response = runtime.models.generate_content(
+            model=model_version,
+            contents=prompt,
+        )
+        return (response.text or "").strip()
+
+    result = runtime.invoke(
+        {
+            "messages": [
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ]
+        }
+    )
+
+    return _extract_agent_response(result)
+
+
+def _process_prompt(job: PromptJob) -> Response:
+    logger.info(
+        "Sending scenario=%s model=%s index=%d",
+        job.scenario,
+        job.model_version,
+        job.index,
+    )
+
+    response_text = _invoke_model(
+        model_version=job.model_version,
+        prompt=job.prompt,
+    )
+
+    logger.info(
+        "Received scenario=%s model=%s index=%d response_length=%d",
+        job.scenario,
+        job.model_version,
+        job.index,
+        len(response_text),
+    )
+
+    return _build_response_row(
+        scenario=job.scenario,
+        model_version=job.model_version,
+        response_timestamp=job.response_timestamp,
+        prompt=job.prompt,
+        response_text=response_text,
+        index=job.index,
+    )
+
+
+def _load_jobs(
+    input_files: list[Path],
+) -> list[PromptJob]:
+    jobs: list[PromptJob] = []
+
+    for model_version in SUPPORTED_MODELS:
+        model_job_count = 0
+
+        for input_file in input_files:
+            scenario = input_file.stem
+            response_timestamp = datetime.now(
+                tz=_TIME_ZONE,
+            ).strftime("%Y%m%d_%H%M")
+
+            with input_file.open("r", encoding="utf-8") as file:
+                for index, line in enumerate(file, start=1):
+                    prompt = line.strip()
+
+                    if not prompt:
+                        continue
+
+                    jobs.append(
+                        PromptJob(
+                            input_file=input_file,
+                            scenario=scenario,
+                            model_version=model_version,
+                            prompt=prompt,
+                            index=index,
+                            response_timestamp=response_timestamp,
+                        )
+                    )
+
+                    model_job_count += 1
+
+                    # TEST RUN: remove this break to process every prompt.
+                    if _TEST_RUN:
+                        break
+
+            if model_job_count:
+                logger.info(
+                    "Queued scenario=%s model=%s",
+                    scenario,
+                    model_version,
+                )
+
+            # TEST RUN: remove this break to process every input file.
+            if _TEST_RUN and model_job_count:
+                break
+
+    return jobs
+
+
+def _run_jobs(
+    conn: sqlite3.Connection,
+    jobs: list[PromptJob],
+) -> None:
+    if not jobs:
+        logger.info("No prompts found")
+        return
+
+    completed = 0
+    total_jobs = len(jobs)
+
+    logger.info(
+        "Processing %d prompts with %d worker threads",
+        total_jobs,
+        _MAX_WORKERS,
+    )
+
+    executor = ThreadPoolExecutor(
+        max_workers=_MAX_WORKERS,
+        thread_name_prefix="model-worker",
+    )
+
+    futures: list[Future[Response]] = [
+        executor.submit(_process_prompt, job) for job in jobs
+    ]
+
+    try:
+        for future in as_completed(futures):
+            response_row = future.result()
+
             _insert_response(conn, response_row)
+            conn.commit()
+
+            completed += 1
+
+            logger.info(
+                "Saved response %d/%d to database",
+                completed,
+                total_jobs,
+            )
+
+    except BaseException:
+        for future in futures:
+            future.cancel()
+
+        conn.rollback()
+        executor.shutdown(
+            wait=True,
+            cancel_futures=True,
+        )
+        raise
+
+    else:
+        executor.shutdown(wait=True)
+
+
+def main(
+    input_files: list[Path],
+    output_file: Path,
+) -> None:
+    jobs = _load_jobs(input_files)
+
+    with sqlite3.connect(output_file, timeout=300) as conn:
+        _configure_database(conn)
+        _ensure_db_schema(conn)
+        _run_jobs(conn, jobs)
+
+    logger.info("Finished processing %d prompts", len(jobs))
 
 
 if __name__ == "__main__":
     OUTPUT_PATH_RESPONSES.mkdir(parents=True, exist_ok=True)
+
     db_path = OUTPUT_PATH_RESPONSES / "responses.db"
 
     env_path = Path(__file__).resolve().parent.parent.parent / ".env"
@@ -184,33 +384,4 @@ if __name__ == "__main__":
 
     input_files = list(OUTPUT_PATH_PROMPTS.rglob("*.txt"))
 
-    with sqlite3.connect(db_path) as _conn:
-        _ensure_db_schema(_conn)
-
-        for _model_version in SUPPORTED_MODELS:
-            for _input_file in input_files:
-                _scenario = _input_file.stem
-                _response_timestamp = datetime.now(
-                    tz=ZoneInfo("Europe/Zurich")
-                ).strftime("%Y%m%d_%H%M")
-
-                logger.info(
-                    f"Processing scenario={_scenario} with model_version={_model_version}"
-                )
-
-                try:
-                    _conn.execute("BEGIN")
-
-                    _process_request(
-                        _conn,
-                        _input_file,
-                        _model_version,
-                        _response_timestamp,
-                        _scenario,
-                    )
-
-                    _conn.commit()
-
-                except Exception:
-                    _conn.rollback()
-                    raise
+    main(input_files, db_path)
