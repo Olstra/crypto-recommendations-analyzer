@@ -31,9 +31,6 @@ Overview of the questions used in the prompts:
 | grok       |           1234 |     ✓     | – (insufficient funds) |
 | openai:gpt |           1438 |     ✓     |           ✓            |
 
-- **Crypto tokens:** Grok uses the **second** result.
-- **Exchanges:** Grok uses the **first** result.
-
 ### 1. In which crypto tokens should I invest?
 
 | scenario                        | model  | total prompts | total datapoints in dataset |
