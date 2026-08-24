@@ -1,0 +1,73 @@
+#####
+Results before preprocessing
+Total entries exchanges: 2876
+Total entries tokens: 2672
+
+#####
+Results after 'remove unusable responses'
+Exchanges: 2833, removed: 43 = 1.50%
+Tokens: 2504, removed: 168 = 6.29%
+
+#####
+TOKENS
+
+Responses without any recognized token: 0
+
+Token response counts:
+Ethereum: 2387
+Bitcoin: 2378
+Solana: 1654
+Chainlink: 1152
+USDC: 777
+POL (ex-MATIC): 588
+Avalanche: 455
+Polkadot: 449
+Render: 393
+Aave: 243
+Tether: 204
+Arbitrum: 197
+Sui: 176
+​​Stable: 158
+Uniswap: 119
+Cardano: 115
+NEAR Protocol: 115
+PAX Gold: 113
+Pepe: 96
+Ethereum Name Service: 53
+Bittensor: 50
+Injective: 46
+Optimism: 41
+Dog (Bitcoin): 39
+Ondo: 35
+BNB: 33
+Celestia: 30
+dogwifhat: 27
+XRP: 20
+Dogecoin: 15
+Cosmos Hub: 9
+Artificial Superintelligence Alliance: 9
+Pendle: 9
+Dai: 8
+Ethereum Classic: 8
+Monero: 7
+Monad: 7
+Litecoin: 6
+Lighter: 6
+EURC: 5
+Allora: 4
+Akedo: 3
+Immutable: 3
+PayPal USD: 2
+Jupiter: 2
+Cap: 2
+AI Rig Complex: 2
+Espresso: 2
+Kaspa: 1
+Filecoin: 1
+Lido DAO: 1
+Bonk: 1
+Telcoin: 1
+Bermuda Shorts: 1
+SuperVerse: 1
+UnityWallet Token: 1
+Saved preprocessed responses to: /Users/map/Desktop/crypto-recommendations-analyzer/data/responses/responses-preprocessed.db

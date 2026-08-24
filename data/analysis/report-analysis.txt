@@ -1,0 +1,40 @@
+=== Dataset metrics ===
+total_responses: 2504
+total_models: 4
+
+=== Top 3 products overall (by mention frequency) ===
+#1 Bitcoin (mentions=2181)
+#2 Ethereum (mentions=2175)
+#3 Solana (mentions=1526)
+
+=== Top 3 products per LLM (by mention frequency) ===
+[claude]
+  #1 Bitcoin (mentions_per_llm=619)
+  #2 Ethereum (mentions_per_llm=619)
+  #3 Polkadot (mentions_per_llm=425)
+[gemini]
+  #1 Ethereum (mentions_per_llm=582)
+  #2 Bitcoin (mentions_per_llm=571)
+  #3 Solana (mentions_per_llm=452)
+[grok]
+  #1 Bitcoin (mentions_per_llm=367)
+  #2 Ethereum (mentions_per_llm=365)
+  #3 Solana (mentions_per_llm=201)
+[openai:gpt]
+  #1 Bitcoin (mentions_per_llm=624)
+  #2 Ethereum (mentions_per_llm=609)
+  #3 Chainlink (mentions_per_llm=462)
+
+=== Gini Coefficient per LLM ===
+[claude]
+  Manual GI : 0.9889
+  PyGini GI : 0.9889
+[gemini]
+  Manual GI : 0.9855
+  PyGini GI : 0.9855
+[grok]
+  Manual GI : 0.9905
+  PyGini GI : 0.9905
+[openai:gpt]
+  Manual GI : 0.9825
+  PyGini GI : 0.9825

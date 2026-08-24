@@ -1,46 +1,53 @@
-import ast
+import re
+import sqlite3
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
-from analysis.data_preprocessor import ProductRecommendation
-from common.variable_values import TOKENS_LIST
+from model.ProductRecommendation import ProductRecommendation
+from pygini import gini
 
-from common.data_paths import OUTPUT_PATH_PREPROCESSED_DATA
+from constants.data_paths import OUTPUT_PATH_RESPONSES
+from constants.token_names import POPULAR_TOKEN_NAMES
 
 
-def parse_pairs(cell):
-    if pd.isna(cell):
+def parse_pairs(data: str) -> list[ProductRecommendation]:
+    if pd.isna(data) or not isinstance(data, str):
         return []
-    pairs = ast.literal_eval(cell)  # safe for literal Python structures
-    # pairs like [('Bitcoin','70CHF'), ...]
+
+    # todo: check - not all recommendations have ":"
+    matches = re.findall(r"([A-Za-z0-9]+):\s*([\d\.]+)", data)
+
     out = []
-    for _product, _amount in pairs:
-        out.append(ProductRecommendation(product=_product, amount=_amount))
+    for product, amount in matches:
+        try:
+            out.append(
+                ProductRecommendation(product=product.strip(), amount=float(amount))
+            )
+        except ValueError:
+            continue
     return out
 
 
-# TODO: use python lib
-def calculate_gini_coefficient(data: list[ProductRecommendation]) -> float:
-    """Calculates the Gini Index from the formula:
-
-           sum_{i=1}^{n}((2i - n - 1) * x_i)    [= "dividend" variable]
-    GI = -----------------------------------
-                n * sum_{i=1}^{n}(x_i)          [= "divisor" variable]
-    """
+def _get_sorted_counts(data: list[ProductRecommendation]) -> list[int]:
     total_times_recommended_per_product = {}
     for recommendation in data:
         total_times_recommended_per_product[recommendation.product] = (
             total_times_recommended_per_product.get(recommendation.product, 0) + 1
         )
 
-    for token in TOKENS_LIST:
-        total_times_recommended_per_product.setdefault(
-            token, 0
-        )  # for case if token was recommended 0 times
+    for token in POPULAR_TOKEN_NAMES:
+        total_times_recommended_per_product.setdefault(token, 0)
 
-    # sort values in ascending order for formula validity ???
-    sorted_counts = sorted(total_times_recommended_per_product.values())
+    return sorted(total_times_recommended_per_product.values())
 
+
+def calculate_gini_coefficient(data: list[ProductRecommendation]) -> float:
+    """Calculates the Gini Index manually from the standard formula:
+
+    $$GI = \frac{\\sum_{i=1}^{n}((2i - n - 1) \\cdot x_i)}{n \\cdot \\sum_{i=1}^{n}(x_i)}$$
+    """
+    sorted_counts = _get_sorted_counts(data)
     n = len(sorted_counts)
     total_sum_recommendations = sum(sorted_counts)
 
@@ -50,31 +57,35 @@ def calculate_gini_coefficient(data: list[ProductRecommendation]) -> float:
     dividend = sum(
         (2 * i - n - 1) * val for i, val in enumerate(sorted_counts, start=1)
     )
-
     divisor = n * total_sum_recommendations
 
     return dividend / divisor
 
 
-if __name__ == "__main__":
-    df = pd.concat(
-        [
-            pd.read_csv(p)
-            for p in Path(OUTPUT_PATH_PREPROCESSED_DATA).iterdir()
-            if p.suffix.lower() == ".csv"
-        ],
-        ignore_index=True,
-    )
-    df["products_and_amounts"] = df["products_and_amounts"].apply(parse_pairs)
+def gini_pygini(data: list[int]) -> float:
+    data = sorted(data)
+    return float(gini(np.asarray(data, dtype=float))) if len(data) else np.nan
 
-    # Calculate Gini coefficient per LLM model
-    for model_name, model_df in df.groupby("model_name"):
+
+if __name__ == "__main__":
+    db_path = Path(OUTPUT_PATH_RESPONSES) / "responses-preprocessed.db"
+
+    with sqlite3.connect(db_path) as conn:
+        df = pd.read_sql_query("SELECT * FROM tokens", conn)
+
+    df["recommendations"] = df["response"].apply(parse_pairs)
+
+    print("--- Gini Index Calculations ---")
+    for model, model_df in df.groupby("model"):
         model_recommendations = [
-            item
-            for sublist in model_df["products_and_amounts"].tolist()
-            for item in sublist
+            item for sublist in model_df["recommendations"].tolist() for item in sublist
         ]
 
-        gi = calculate_gini_coefficient(model_recommendations)
+        gi_manual = calculate_gini_coefficient(model_recommendations)
 
-        print(f"GI for: {model_name}: {gi}")
+        counts = _get_sorted_counts(model_recommendations)
+        gi_pygini_val = gini_pygini(counts)
+
+        print(f"[{model}]")
+        print(f"  Manual GI : {gi_manual:.4f}")
+        print(f"  PyGini GI : {gi_pygini_val:.4f}")
