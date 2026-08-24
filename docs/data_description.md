@@ -22,7 +22,6 @@ Overview of the questions used in the prompts:
 ## Dataset
 
 ## Response Counts by Model
-Standard Markdown tables don’t support merged cells, but this is the closest layout:
 
 | model      | response_count | complete? |                        |
 |------------|---------------:|:---------:|:----------------------:|
