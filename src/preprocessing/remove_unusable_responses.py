@@ -1,5 +1,7 @@
 from pandas import DataFrame
 
+# TODO: mustnt be rejection, could be just a warning
+# TODO: check at random sample of what was deleted - check we're not filtering out usefull info
 _UNUSABLE_KEYWORDS = (
     "sorry",
     "i can't",

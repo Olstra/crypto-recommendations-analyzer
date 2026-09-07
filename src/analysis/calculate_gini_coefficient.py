@@ -4,11 +4,11 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from model.ProductRecommendation import ProductRecommendation
 from pygini import gini
 
 from constants.data_paths import OUTPUT_PATH_RESPONSES
 from constants.token_names import POPULAR_TOKEN_NAMES
+from src.model.product_recommendation import ProductRecommendation
 
 
 def parse_pairs(data: str) -> list[ProductRecommendation]:

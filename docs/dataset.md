@@ -84,19 +84,19 @@ Overview of the questions used in the prompts:
 | budget, risk, term, environment | GPT    |           288 |                         288 |
 | —                               | —      |             — |                           — |
 | budget                          | Grok   |             8 |                           8 |
-| risk                            | Grok   |             3 |                           0 |
+| risk                            | Grok   |             3 |                           3 |
 | term                            | Grok   |             3 |                           3 |
 | environment                     | Grok   |             4 |                           4 |
-| budget, risk                    | Grok   |            24 |                           0 |
+| budget, risk                    | Grok   |            24 |                          24 |
 | budget, term                    | Grok   |            24 |                          24 |
 | budget, environment             | Grok   |            32 |                          32 |
 | risk, term                      | Grok   |             9 |                           9 |
-| risk, environment               | Grok   |            12 |                           0 |
+| risk, environment               | Grok   |            12 |                          12 |
 | term, environment               | Grok   |            12 |                          12 |
 | budget, risk, term              | Grok   |            72 |                          72 |
-| budget, risk, environment       | Grok   |            96 |                          63 |
-| budget, term, environment       | Grok   |            96 |                           0 |
-| risk, term, environment         | Grok   |            36 |                           0 |
+| budget, risk, environment       | Grok   |            96 |                          96 |
+| budget, term, environment       | Grok   |            96 |                          96 |
+| risk, term, environment         | Grok   |            36 |                          36 |
 | budget, risk, term, environment | Grok   |           288 |                         288 |
 
 ### 2. Which exchanges should I use to invest?

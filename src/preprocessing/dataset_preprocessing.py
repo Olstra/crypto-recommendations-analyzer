@@ -53,7 +53,7 @@ def _count_token_responses(
             for response in responses
         ]
 
-        counts[token_name] = int(matches.sum())
+        counts[token_name] = sum(matches)
 
     return counts
 

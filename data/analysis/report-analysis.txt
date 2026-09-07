@@ -1,40 +1,151 @@
 === Dataset metrics ===
-total_responses: 2504
-total_models: 4
+total_responses: 2598
+total_models: 1
 
-=== Top 3 products overall (by mention frequency) ===
-#1 Bitcoin (mentions=2181)
-#2 Ethereum (mentions=2175)
-#3 Solana (mentions=1526)
+=== Top 10 products overall (by mention frequency) ===
+#1 Bitcoin (mentions=2263)
+#2 Ethereum (mentions=2254)
+#3 Solana (mentions=1574)
+#4 Chainlink (mentions=1057)
+#5 USDC (mentions=529)
+#6 Polkadot (mentions=436)
+#7 Avalanche (mentions=413)
+#8 Render (mentions=343)
+#9 Aave (mentions=223)
+#10 Arbitrum (mentions=176)
 
-=== Top 3 products per LLM (by mention frequency) ===
+=== Top 10 products per LLM (by mention frequency) ===
 [claude]
   #1 Bitcoin (mentions_per_llm=619)
   #2 Ethereum (mentions_per_llm=619)
   #3 Polkadot (mentions_per_llm=425)
+  #4 Solana (mentions_per_llm=418)
+  #5 Chainlink (mentions_per_llm=237)
+  #6 Cardano (mentions_per_llm=88)
+  #7 Polygon (mentions_per_llm=69)
+  #8 Avalanche (mentions_per_llm=52)
+  #9 Arbitrum (mentions_per_llm=26)
+  #10 Uniswap (mentions_per_llm=21)
 [gemini]
   #1 Ethereum (mentions_per_llm=582)
   #2 Bitcoin (mentions_per_llm=571)
   #3 Solana (mentions_per_llm=452)
+  #4 Chainlink (mentions_per_llm=303)
+  #5 USDC (mentions_per_llm=193)
+  #6 Render (mentions_per_llm=166)
+  #7 Sui (mentions_per_llm=122)
+  #8 Avalanche (mentions_per_llm=120)
+  #9 Pepe (mentions_per_llm=73)
+  #10 Protocol (mentions_per_llm=72)
 [grok]
-  #1 Bitcoin (mentions_per_llm=367)
-  #2 Ethereum (mentions_per_llm=365)
-  #3 Solana (mentions_per_llm=201)
+  #1 Bitcoin (mentions_per_llm=449)
+  #2 Ethereum (mentions_per_llm=444)
+  #3 Solana (mentions_per_llm=249)
+  #4 USDC (mentions_per_llm=79)
+  #5 Avalanche (mentions_per_llm=68)
+  #6 Chainlink (mentions_per_llm=55)
+  #7 Tether (mentions_per_llm=17)
+  #8 Cardano (mentions_per_llm=14)
+  #9 Sui (mentions_per_llm=12)
+  #10 Dogecoin (mentions_per_llm=9)
 [openai:gpt]
   #1 Bitcoin (mentions_per_llm=624)
   #2 Ethereum (mentions_per_llm=609)
   #3 Chainlink (mentions_per_llm=462)
+  #4 Solana (mentions_per_llm=455)
+  #5 USDC (mentions_per_llm=250)
+  #6 Aave (mentions_per_llm=218)
+  #7 Avalanche (mentions_per_llm=173)
+  #8 Render (mentions_per_llm=171)
+  #9 Arbitrum (mentions_per_llm=148)
+  #10 Uniswap (mentions_per_llm=81)
 
 === Gini Coefficient per LLM ===
 [claude]
   Manual GI : 0.9889
   PyGini GI : 0.9889
 [gemini]
-  Manual GI : 0.9855
-  PyGini GI : 0.9855
+  Manual GI : 0.9853
+  PyGini GI : 0.9853
 [grok]
-  Manual GI : 0.9905
-  PyGini GI : 0.9905
+  Manual GI : 0.9907
+  PyGini GI : 0.9907
 [openai:gpt]
-  Manual GI : 0.9825
-  PyGini GI : 0.9825
+  Manual GI : 0.9824
+  PyGini GI : 0.9824
+
+==================================================
+=== ANALYSIS EXCLUDING BITCOIN, ETHEREUM, SOLANA ===
+==================================================
+
+=== Top 10 products overall (by mention frequency) (excluding bitcoin, ethereum, solana) ===
+#1 Chainlink (mentions=1057)
+#2 USDC (mentions=529)
+#3 Polkadot (mentions=436)
+#4 Avalanche (mentions=413)
+#5 Render (mentions=343)
+#6 Aave (mentions=223)
+#7 Arbitrum (mentions=176)
+#8 Sui (mentions=149)
+#9 Polygon (mentions=141)
+#10 Cardano (mentions=112)
+
+=== Top 10 products per LLM (by mention frequency) (excluding bitcoin, ethereum, solana) ===
+[claude]
+  #1 Polkadot (mentions_per_llm=425)
+  #2 Chainlink (mentions_per_llm=237)
+  #3 Cardano (mentions_per_llm=88)
+  #4 Polygon (mentions_per_llm=69)
+  #5 Avalanche (mentions_per_llm=52)
+  #6 Arbitrum (mentions_per_llm=26)
+  #7 Uniswap (mentions_per_llm=21)
+  #8 XRP (mentions_per_llm=20)
+  #9 Optimism (mentions_per_llm=18)
+  #10 USDC (mentions_per_llm=7)
+[gemini]
+  #1 Chainlink (mentions_per_llm=303)
+  #2 USDC (mentions_per_llm=193)
+  #3 Render (mentions_per_llm=166)
+  #4 Sui (mentions_per_llm=122)
+  #5 Avalanche (mentions_per_llm=120)
+  #6 Pepe (mentions_per_llm=73)
+  #7 Protocol (mentions_per_llm=72)
+  #8 Bittensor (mentions_per_llm=41)
+  #9 Gold (mentions_per_llm=30)
+  #10 dogwifhat (mentions_per_llm=19)
+[grok]
+  #1 USDC (mentions_per_llm=79)
+  #2 Avalanche (mentions_per_llm=68)
+  #3 Chainlink (mentions_per_llm=55)
+  #4 Tether (mentions_per_llm=17)
+  #5 Cardano (mentions_per_llm=14)
+  #6 Sui (mentions_per_llm=12)
+  #7 Dogecoin (mentions_per_llm=9)
+  #8 Render (mentions_per_llm=6)
+  #9 Polkadot (mentions_per_llm=6)
+  #10 Pepe (mentions_per_llm=5)
+[openai:gpt]
+  #1 Chainlink (mentions_per_llm=462)
+  #2 USDC (mentions_per_llm=250)
+  #3 Aave (mentions_per_llm=218)
+  #4 Avalanche (mentions_per_llm=173)
+  #5 Render (mentions_per_llm=171)
+  #6 Arbitrum (mentions_per_llm=148)
+  #7 Uniswap (mentions_per_llm=81)
+  #8 Gold (mentions_per_llm=66)
+  #9 Polygon (mentions_per_llm=63)
+  #10 Ondo (mentions_per_llm=31)
+
+=== Gini Coefficient per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI : 0.9913
+  PyGini GI : 0.9913
+[gemini]
+  Manual GI : 0.9854
+  PyGini GI : 0.9854
+[grok]
+  Manual GI : 0.9869
+  PyGini GI : 0.9869
+[openai:gpt]
+  Manual GI : 0.9832
+  PyGini GI : 0.9832

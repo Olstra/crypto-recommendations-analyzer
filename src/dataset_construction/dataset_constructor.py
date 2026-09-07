@@ -13,7 +13,10 @@ from google import genai
 from langchain.agents import create_agent
 
 from src.common.logger import get_logger
-from src.constants.data_paths import OUTPUT_PATH_PROMPTS, OUTPUT_PATH_RESPONSES
+from src.constants.data_paths import (
+    OUTPUT_PATH_RESPONSES,
+    PROJECT_ROOT,
+)
 from src.constants.supported_models import GEMINI_MODEL_NAME, SUPPORTED_MODELS
 from src.dataset_construction.constants.prompt_constants import SYSTEM_PROMPT
 from src.model.response import RESPONSE_COLUMN_DEFINITIONS, RESPONSE_COLUMNS, Response
@@ -377,11 +380,13 @@ def main(
 if __name__ == "__main__":
     OUTPUT_PATH_RESPONSES.mkdir(parents=True, exist_ok=True)
 
-    db_path = OUTPUT_PATH_RESPONSES / "responses.db"
+    db_path = OUTPUT_PATH_RESPONSES / "responses-missing_grok.db"
 
     env_path = Path(__file__).resolve().parent.parent.parent / ".env"
     load_dotenv(dotenv_path=env_path)
 
-    input_files = list(OUTPUT_PATH_PROMPTS.rglob("*.txt"))
+    # input_files = list(OUTPUT_PATH_PROMPTS.rglob("*.txt"))
+    path_ = PROJECT_ROOT / "data" / "todo_prompts-delete_me"
+    input_files = list(path_.rglob("*.txt"))
 
     main(input_files, db_path)

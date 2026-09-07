@@ -83,7 +83,8 @@ POPULAR_TOKEN_NAMES = {
         "blackrockusdinstitutionaldigitalliquidityfund",
         "buidl",
     ],
-    "NEAR Protocol": ["near", "near protocol", "near-protocol", "nearprotocol"],
+    # TODO
+    # "NEAR Protocol": ["near", "near protocol", "near-protocol", "nearprotocol"],
     "MemeCore": ["memecore"],
     "OKB": ["okb"],
     "Bittensor": ["bittensor", "tao"],
@@ -146,7 +147,7 @@ POPULAR_TOKEN_NAMES = {
     ],
     "USDGO": ["usdgo"],
     "POL (ex-MATIC)": [
-        "pol",
+        # "pol", # TODO: mention somewhere that this manually removed
         "pol ex matic",
         "pol-ex-matic",
         "polexmatic",
@@ -193,7 +194,8 @@ POPULAR_TOKEN_NAMES = {
         "ustb",
     ],
     "Kaspa": ["kas", "kaspa"],
-    "\u200b\u200bStable": ["stable", "stable 2", "stable-2", "stable2"],
+    # TODO: add remark manual removal
+    # "\u200b\u200bStable": ["stable", "stable 2", "stable-2", "stable2"],
     "Render": ["render", "render token", "render-token", "rendertoken"],
     "Janus Henderson Anemoy AAA CLO Fund": [
         "jaaa",
@@ -367,12 +369,13 @@ POPULAR_TOKEN_NAMES = {
     "Optimism": ["optimism"],
     "Conflux": ["cfx", "conflux", "conflux token", "conflux-token", "confluxtoken"],
     "Tezos": ["tezos", "xtz"],
-    "Ethereum Name Service": [
-        "ens",
-        "ethereum name service",
-        "ethereum-name-service",
-        "ethereumnameservice",
-    ],
+    # TODO: add remark
+    # "Ethereum Name Service": [
+    #     "ens",
+    #     "ethereum name service",
+    #     "ethereum-name-service",
+    #     "ethereumnameservice",
+    # ],
     "Decred": ["dcr", "decred"],
     "Ribbita by Virtuals": [
         "ribbita by virtuals",
@@ -735,15 +738,16 @@ POPULAR_TOKEN_NAMES = {
     "GMX": ["gmx"],
     "Orca": ["orca"],
     "STAU": ["stau"],
-    "Dog (Bitcoin)": [
-        "dog",
-        "dog bitcoin",
-        "dog go to the moon rune",
-        "dog-bitcoin",
-        "dog-go-to-the-moon-rune",
-        "dogbitcoin",
-        "doggotothemoonrune",
-    ],
+    # TODO
+    # "Dog (Bitcoin)": [
+    #     "dog",
+    #     "dog bitcoin",
+    #     "dog go to the moon rune",
+    #     "dog-bitcoin",
+    #     "dog-go-to-the-moon-rune",
+    #     "dogbitcoin",
+    #     "doggotothemoonrune",
+    # ],
     "RaveDAO": ["rave", "ravedao"],
     "Tradable NA Post-Settlement Legal Financing Receivables": [
         "na post settlement legal financing receivables",
