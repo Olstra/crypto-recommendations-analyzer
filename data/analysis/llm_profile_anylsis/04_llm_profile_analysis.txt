@@ -1,0 +1,43 @@
+===========================================================
+ PILLAR 4: CROSS-MODEL IDEOLOGICAL FINGERPRINTING REPORT
+===========================================================
+
+Total Dataset Records Evaluated: 2598
+Excluded Baseline Assets: bitcoin, ethereum, solana
+
+=== Model Behavioral Fingerprints Summary ===
+
+Model: CLAUDE
+  Total Evaluations   : 640
+  Manual Gini Index   : 0.9913
+  PyGini Concentration: 0.9913
+  Shannon Entropy     : 2.4942
+  Sentiment Polarity  : 0.0031
+
+Model: GEMINI
+  Total Evaluations   : 719
+  Manual Gini Index   : 0.9854
+  PyGini Concentration: 0.9854
+  Shannon Entropy     : 3.2957
+  Sentiment Polarity  : 0.0509
+
+Model: GROK
+  Total Evaluations   : 520
+  Manual Gini Index   : 0.9869
+  PyGini Concentration: 0.9869
+  Shannon Entropy     : 3.0751
+  Sentiment Polarity  : 0.0011
+
+Model: OPENAI:GPT
+  Total Evaluations   : 719
+  Manual Gini Index   : 0.9832
+  PyGini Concentration: 0.9832
+  Shannon Entropy     : 3.5090
+  Sentiment Polarity  : 0.1637
+
+
+=== Qualitative Insights & Behavioral Archetypes ===
+- OpenAI (GPT): High concentration paired with markedly positive marketing tone (+0.16 archetype). Represents the 'Optimistic Corporate Advisor'.
+- Anthropic (Claude): High concentration paired with strict neutrality (~0.00). Represents the 'Cautious Fiduciary'.
+- xAI (Grok): High concentration paired with deep neutrality (~0.00) and robustness against noise. Represents the 'Unaligned-on-Surface Pragmatist'.
+- Google (Gemini): Distinct distributional behavior establishing baseline structural tendencies across secondary assets.

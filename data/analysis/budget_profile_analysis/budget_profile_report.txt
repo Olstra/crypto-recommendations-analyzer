@@ -1,0 +1,120 @@
+===========================================================
+ BUDGET PROFILE ANALYSIS: CAPITAL ELASTICITY & TONE REPORT
+===========================================================
+
+Total Dataset Records: 2598 | Evaluated Models: 4
+
+
+
+============================================================
+ BUDGET TIER: 100 CHF (N=311)
+============================================================
+=== Top 10 products overall (excluding bitcoin, ethereum, solana) ===
+#1 Chainlink (mentions=71)
+#2 Polkadot (mentions=48)
+#3 USDC (mentions=48)
+#4 Render (mentions=31)
+#5 Avalanche (mentions=22)
+#6 Sui (mentions=14)
+#7 Pepe (mentions=12)
+#8 Polygon (mentions=11)
+#9 Aave (mentions=8)
+#10 Cardano (mentions=5)
+
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI        : 0.9949
+  PyGini GI        : 0.9949
+  Shannon Entropy  : 1.5836
+  Sentiment Pol.   : 0.0000
+[gemini]
+  Manual GI        : 0.9880
+  PyGini GI        : 0.9880
+  Shannon Entropy  : 2.9322
+  Sentiment Pol.   : -0.0100
+[grok]
+  Manual GI        : 0.9895
+  PyGini GI        : 0.9895
+  Shannon Entropy  : 2.7040
+  Sentiment Pol.   : 0.0000
+[openai:gpt]
+  Manual GI        : 0.9901
+  PyGini GI        : 0.9901
+  Shannon Entropy  : 2.7112
+  Sentiment Pol.   : 0.0000
+
+
+============================================================
+ BUDGET TIER: 30'000 CHF (N=292)
+============================================================
+=== Top 10 products overall (excluding bitcoin, ethereum, solana) ===
+#1 Chainlink (mentions=130)
+#2 USDC (mentions=64)
+#3 Avalanche (mentions=51)
+#4 Render (mentions=45)
+#5 Polkadot (mentions=44)
+#6 Arbitrum (mentions=34)
+#7 Aave (mentions=32)
+#8 Polygon (mentions=24)
+#9 Uniswap (mentions=20)
+#10 Sui (mentions=20)
+
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI        : 0.9897
+  PyGini GI        : 0.9897
+  Shannon Entropy  : 2.7431
+  Sentiment Pol.   : 0.0069
+[gemini]
+  Manual GI        : 0.9866
+  PyGini GI        : 0.9866
+  Shannon Entropy  : 3.1364
+  Sentiment Pol.   : 0.1419
+[grok]
+  Manual GI        : 0.9911
+  PyGini GI        : 0.9911
+  Shannon Entropy  : 2.4778
+  Sentiment Pol.   : 0.0083
+[openai:gpt]
+  Manual GI        : 0.9826
+  PyGini GI        : 0.9826
+  Shannon Entropy  : 3.5272
+  Sentiment Pol.   : 0.2650
+
+
+============================================================
+ BUDGET TIER: 100'000 CHF (N=288)
+============================================================
+=== Top 10 products overall (excluding bitcoin, ethereum, solana) ===
+#1 Chainlink (mentions=148)
+#2 USDC (mentions=75)
+#3 Avalanche (mentions=64)
+#4 Polkadot (mentions=52)
+#5 Render (mentions=44)
+#6 Aave (mentions=36)
+#7 Uniswap (mentions=27)
+#8 Arbitrum (mentions=26)
+#9 Polygon (mentions=21)
+#10 Sui (mentions=21)
+
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI        : 0.9924
+  PyGini GI        : 0.9924
+  Shannon Entropy  : 2.2876
+  Sentiment Pol.   : 0.0000
+[gemini]
+  Manual GI        : 0.9849
+  PyGini GI        : 0.9849
+  Shannon Entropy  : 3.3076
+  Sentiment Pol.   : 0.0263
+[grok]
+  Manual GI        : 0.9896
+  PyGini GI        : 0.9896
+  Shannon Entropy  : 2.7237
+  Sentiment Pol.   : -0.0103
+[openai:gpt]
+  Manual GI        : 0.9814
+  PyGini GI        : 0.9814
+  Shannon Entropy  : 3.6349
+  Sentiment Pol.   : 0.2175

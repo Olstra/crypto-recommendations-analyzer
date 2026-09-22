@@ -1,6 +1,6 @@
 === Dataset metrics ===
 total_responses: 2598
-total_models: 1
+total_models: 4
 
 === Top 10 products overall (by mention frequency) ===
 #1 Bitcoin (mentions=2263)
@@ -60,19 +60,27 @@ total_models: 1
   #9 Arbitrum (mentions_per_llm=148)
   #10 Uniswap (mentions_per_llm=81)
 
-=== Gini Coefficient per LLM ===
+=== Statistical & Sentiment Metrics per LLM ===
 [claude]
-  Manual GI : 0.9889
-  PyGini GI : 0.9889
+  Manual GI        : 0.9889
+  PyGini GI        : 0.9889
+  Shannon Entropy  : 2.8610
+  Sentiment Pol.   : 0.0031
 [gemini]
-  Manual GI : 0.9853
-  PyGini GI : 0.9853
+  Manual GI        : 0.9853
+  PyGini GI        : 0.9853
+  Shannon Entropy  : 3.3005
+  Sentiment Pol.   : 0.0509
 [grok]
-  Manual GI : 0.9907
-  PyGini GI : 0.9907
+  Manual GI        : 0.9907
+  PyGini GI        : 0.9907
+  Shannon Entropy  : 2.5766
+  Sentiment Pol.   : 0.0011
 [openai:gpt]
-  Manual GI : 0.9824
-  PyGini GI : 0.9824
+  Manual GI        : 0.9824
+  PyGini GI        : 0.9824
+  Shannon Entropy  : 3.5810
+  Sentiment Pol.   : 0.1637
 
 ==================================================
 === ANALYSIS EXCLUDING BITCOIN, ETHEREUM, SOLANA ===
@@ -136,16 +144,24 @@ total_models: 1
   #9 Polygon (mentions_per_llm=63)
   #10 Ondo (mentions_per_llm=31)
 
-=== Gini Coefficient per LLM (excluding bitcoin, ethereum, solana) ===
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
 [claude]
-  Manual GI : 0.9913
-  PyGini GI : 0.9913
+  Manual GI        : 0.9913
+  PyGini GI        : 0.9913
+  Shannon Entropy  : 2.4942
+  Sentiment Pol.   : 0.0031
 [gemini]
-  Manual GI : 0.9854
-  PyGini GI : 0.9854
+  Manual GI        : 0.9854
+  PyGini GI        : 0.9854
+  Shannon Entropy  : 3.2957
+  Sentiment Pol.   : 0.0509
 [grok]
-  Manual GI : 0.9869
-  PyGini GI : 0.9869
+  Manual GI        : 0.9869
+  PyGini GI        : 0.9869
+  Shannon Entropy  : 3.0751
+  Sentiment Pol.   : 0.0011
 [openai:gpt]
-  Manual GI : 0.9832
-  PyGini GI : 0.9832
+  Manual GI        : 0.9832
+  PyGini GI        : 0.9832
+  Shannon Entropy  : 3.5090
+  Sentiment Pol.   : 0.1637

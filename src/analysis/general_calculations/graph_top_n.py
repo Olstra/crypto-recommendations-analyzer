@@ -4,6 +4,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from constants.data_paths import OUTPUT_PATH_ANALYSIS
+
 
 def parse_llm_report(file_path: str | Path) -> dict[str, dict[str, int]]:
     """Parses a report .txt file containing [llm_name] headers and token mention lines.
@@ -90,5 +92,5 @@ def plot_from_txt(
 
 
 if __name__ == "__main__":
-    report_file = Path("data_for_graph.txt")
+    report_file = OUTPUT_PATH_ANALYSIS / "general_analysis-data_for_graph.txt"
     plot_from_txt(report_file)

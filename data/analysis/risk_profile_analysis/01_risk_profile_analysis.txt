@@ -1,0 +1,81 @@
+===========================================================
+ RISK PROFILE ANALYSIS REPORT
+===========================================================
+
+Total Records: 2598 | Evaluated Models: 4
+
+
+==================================================
+ RISK-SEEKING PROFILE
+==================================================
+=== Top 10 products overall (excluding bitcoin, ethereum, solana) ===
+#1 Chainlink (mentions=385)
+#2 Render (mentions=285)
+#3 Avalanche (mentions=189)
+#4 Sui (mentions=146)
+#5 Arbitrum (mentions=142)
+#6 Polkadot (mentions=130)
+#7 Aave (mentions=114)
+#8 Pepe (mentions=78)
+#9 Protocol (mentions=60)
+#10 Polygon (mentions=55)
+
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI        : 0.9888
+  PyGini GI        : 0.9888
+  Shannon Entropy  : 2.8744
+  Sentiment Pol.   : 0.0057
+[gemini]
+  Manual GI        : 0.9885
+  PyGini GI        : 0.9885
+  Shannon Entropy  : 2.9350
+  Sentiment Pol.   : 0.0769
+[grok]
+  Manual GI        : 0.9900
+  PyGini GI        : 0.9900
+  Shannon Entropy  : 2.6553
+  Sentiment Pol.   : -0.0036
+[openai:gpt]
+  Manual GI        : 0.9848
+  PyGini GI        : 0.9848
+  Shannon Entropy  : 3.3341
+  Sentiment Pol.   : 0.2274
+
+
+==================================================
+ RISK-AVERSE PROFILE
+==================================================
+=== Top 10 products overall (excluding bitcoin, ethereum, solana) ===
+#1 USDC (mentions=290)
+#2 Polkadot (mentions=56)
+#3 Gold (mentions=56)
+#4 Chainlink (mentions=46)
+#5 Tether (mentions=29)
+#6 Cardano (mentions=10)
+#7 Ethereumer (mentions=10)
+#8 CryptoFranc (mentions=5)
+#9 Polygon (mentions=4)
+#10 Dai (mentions=3)
+
+=== Statistical & Sentiment Metrics per LLM (excluding bitcoin, ethereum, solana) ===
+[claude]
+  Manual GI        : 0.9946
+  PyGini GI        : 0.9946
+  Shannon Entropy  : 1.7840
+  Sentiment Pol.   : 0.0032
+[gemini]
+  Manual GI        : 0.9963
+  PyGini GI        : 0.9963
+  Shannon Entropy  : 1.1524
+  Sentiment Pol.   : 0.0250
+[grok]
+  Manual GI        : 0.9963
+  PyGini GI        : 0.9963
+  Shannon Entropy  : 1.2442
+  Sentiment Pol.   : -0.0007
+[openai:gpt]
+  Manual GI        : 0.9946
+  PyGini GI        : 0.9946
+  Shannon Entropy  : 1.8192
+  Sentiment Pol.   : 0.0889

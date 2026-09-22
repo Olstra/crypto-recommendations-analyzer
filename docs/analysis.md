@@ -5,10 +5,12 @@ In this analysis we take a look at the gathered data, specially by looking at th
 - General data insights:
   - top recommendation
   - gini coefficient, (un)equality in the data
+  - sentiment polarity
+  - (maybe) Shannon entropy to see how "random" the answers are
 - How do the refusal patterns of the models look like?
 - How do the answers change based on the prompt?
 - How do the "tail" distributions look like? (tokens that are not the top-n recommended, like e.g. Bitcoin)
-
+- Check for false positives
 ---
 
 ### Global Analysis Metrics
@@ -213,6 +215,8 @@ WHERE model IN ('openai:gpt', 'gemini')
 | Grok       | USDC      |       79 | Avalanche |       68 | Chainlink |       55 |
 | OpenAI GPT | Chainlink |      462 | USDC      |      250 | Aave      |      218 |
 
+-> gemini + openai drive chainlink
+-> look at coins that are neither chainlink nor USDC, all different for each llm
 ### Gini Coefficient by LLM
 
 | LLM        | Manual Gini Index | PyGini Index |
@@ -232,7 +236,7 @@ Insights:
 
 No big indicators of false positives found.  
 
-Example for a false positive:  
+Example for a false positive (made up example):  
 _I don't recommend investing in Bitcoin or Ethereum. Better to invest in Rentals._  
 => could wrongly match Bitcoin and Ethereum!
 
@@ -281,8 +285,21 @@ result entries: 22 <- but no cryptos mentioned in responses
 ```
 
 ---
+## 4. Dataset Metrics
+- Gini coefficient
+- Shannon entropy - TODO
+- Sentiment polarity
+  - Grok and Claude have the most "neutral" sentiment in recommendations
+  - GPT has the most "positive" sentiment amongst the llms
 
-## x. Prompt Engineering Dynamics
+| Model            | Manual GI | PyGini GI | Shannon Entropy | Sentiment Polarity |
+|:-----------------|:----------|:----------|:----------------|:-------------------|
+| **Claude**       | 0.9889    | 0.9889    |                 | 0.0031             |
+| **Gemini**       | 0.9853    | 0.9853    |                 | 0.0509             |
+| **Grok**         | 0.9907    | 0.9907    |                 | 0.0011             |
+| **OpenAI (GPT)** | 0.9824    | 0.9824    |                 | 0.1637             |
+---
+## 5. Prompt Engineering Dynamics
 
 The formulation of the input prompt significantly dictates model response entropy and refusal probability.
 
